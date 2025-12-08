@@ -31,7 +31,7 @@
 .counter-card {
     position: absolute;
     display: inline-flex;
-    gap: 25px;
+    gap: 26px;
     align-items: center;
     &_wrap {
         ~ .counter-card_wrap {
