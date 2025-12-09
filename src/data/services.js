@@ -1,0 +1,105 @@
+// src/data/services.js
+// Edit titles, slugs, descriptions, image paths as needed.
+// Use url-friendly slugs (lowercase, hyphens).
+
+const services = [
+  {
+    id: 1,
+    slug: "tyre-repair",
+    title: "Tyre Repair",
+    title_detail:"Professional On-Site Tyre Repair in Dubai",
+    p1:"A sudden flat tyre can disrupt your entire day, especially when you’re on the move. At 800 SPEEDY, we provide fast and reliable on-site tyre repair anywhere in Dubai. Our expert technicians inspect the tyre thoroughly, identify punctures, leaks, or damage, and repair them using industry-approved techniques. No towing, no waiting — we fix the problem right where you are",
+    p2:"With our average arrival time of 20–30 minutes, we ensure you get back on the road safely and quickly. Whether it’s a nail puncture, slow air leak, or emergency roadside breakdown, our team brings the right tools, equipment, and expertise to restore your tyre’s functionality with precision.",
+    heading_title:"Trusted Tyre Repair Specialists",
+    h1:"Fast and reliable on-site tyre repair across all Dubai locations",
+    h2:"Expert inspection and professional puncture repair methods",
+    h3:"No need for towing — we repair your tyre at your home, office, or roadside",
+    h4:"Safe, long-lasting repairs using certified tools and materials",    
+
+    short: "We fix punctures, leaks, and tyre damage on the spot using professional tools—fast, safe, and reliable.",
+    image: "/assets/img/service/repair-tyre-1.png",
+    icon: "/assets/img/icon/service-icon_1-1.svg"
+  },
+  {
+    id: 2,
+     title_detail:"Buy Premium New Tyres Delivered & Installed Anywhere in Dubai",
+     p1:"Choosing the right tyre is essential for safety, comfort, and long-term performance. At 800 SPEEDY, we make tyre purchasing easy by delivering high-quality, brand-new tyres directly to your location. Whether you're at home, work, or stuck with a damaged tyre on the roadside, we provide fast installation supported by expert guidance on selecting the perfect tyre for your vehicle.",
+     p2:"Our technicians handle everything — removing the old tyre, fitting the new one, balancing, and performing a thorough safety check. With a wide range of premium brands and competitive pricing, we ensure you get reliable tyres that enhance your driving experience and keep you safe on Dubai’s roads.",
+      heading_title:"High-Quality Tyres Installed by Experts",
+    h1:"Wide selection of premium tyres for all car models and budgets",
+    h2:"Delivered and professionally installed at your doorstep",
+    h3:"Includes wheel balancing and full safety inspection",
+    h4:"Fast service with average arrival time of 20–30 minutes", 
+    slug: "buy-new-tyre",
+    title: "Buy New Tyre",
+    short: "Choose from premium tyres for all car models with expert installation at your home or roadside.",
+    image: "/assets/img/service/Buy New Tyre.png",
+    icon: "/assets/img/icon/service-icon_1-2.svg"
+  },
+  {
+    id: 3,
+    slug: "tyre-replacement",
+    title: "Tyre Replacement",
+     title_detail:"Fast & Professional Tyre Replacement Anywhere in Dubai",
+     p1:"A worn-out or damaged tyre can compromise your safety and vehicle performance. At 800 SPEEDY, we offer fast, convenient, and expert tyre replacement services across Dubai. Whether you're stuck on the roadside or need a scheduled replacement at home or office, our technicians arrive equipped to replace your tyre quickly and safely.",
+     p2:"We remove the damaged tyre, install the new one, tighten and torque all wheel nuts properly, and check tyre pressure to ensure everything is secure. With access to a wide range of top tyre brands, we provide high-quality replacements that enhance your vehicle's grip, stability, and overall driving comfort.",
+      heading_title:"Reliable Tyre Replacement by Trained Technicians",
+    h1:"Complete tyre removal and replacement using professional tools",
+    h2:"New tyres installed with correct torque and safety procedures",
+    h3:"Suitable for roadside emergencies, home, or workplace service",
+    h4:"Wide range of tyre brands available for all car types", 
+    short: "Complete tyre change service with balancing and safety checks—done quickly at your location.",
+    image: "/assets/img/service/Tyre Replacement.png",
+    icon: "/assets/img/icon/service-icon_1-3.svg"
+  },
+  {
+    id: 4,
+    slug: "air-fill",
+    title: "Air Fill (Nitrogen / Regular)",
+    title_detail:"Accurate Tyre Air Fill & Pressure Check Anywhere in Dubai",
+     p1:"Proper tyre pressure is essential for safe driving, fuel efficiency, and longer tyre life. At 800 SPEEDY, we provide precise on-site air filling and tyre pressure checks anywhere in Dubai. Whether your tyres need standard air or nitrogen, our technicians use calibrated gauges to ensure exact pressure levels recommended for your vehicle.",
+     p2:"Low tyre pressure can cause uneven wear, reduce braking performance, and increase fuel consumption. Our team checks for leaks, adjusts each tyre individually, and ensures balanced pressure for a smoother and safer ride. We arrive at your location quickly and help maintain your tyres in peak condition.",
+      heading_title:"Professional Tyre Pressure Check by Certified Technicians",
+    h1:" Accurate tyre pressure check using calibrated digital gauges",
+    h2:"Standard air or nitrogen fill available on-site",
+    h3:"Helps improve fuel efficiency, tyre life, and driving safety",
+    h4:"Quick 20–30 minute arrival anywhere in Dubai", 
+    short: "We check and fill your tyre pressure (air or nitrogen) to ensure smooth driving and fuel efficiency.",
+    image: "/assets/img/service/Air Fill.png",
+    icon: "/assets/img/icon/service-icon_1-3.svg"
+  },
+  {
+    id: 5,
+    slug: "spare-tyre-change",
+    title: "Spare Tyre Change",
+       title_detail:"Fast & Reliable Spare Tyre Change Service in Dubai",
+     p1:"A flat tyre can happen anywhere — in parking lots, on highways, or even at home. If you don’t have the tools, the strength, or the time to change your spare tyre, 800 SPEEDY is here to help. Our technicians arrive at your location in 20–30 minutes, equipped to safely replace your flat tyre with your vehicle’s spare.",
+     p2:"We ensure the spare tyre is installed correctly, wheel nuts are tightened and torqued properly, and your car is safe to drive. Our team handles everything from lifting the vehicle to performing a final pressure check, providing a hassle-free and professional solution for any sudden tyre issue.",
+      heading_title:"Your Roadside Tyre Replacement Partner",
+    h1:" Quick spare tyre change at your home, workplace, or roadside",
+    h2:"Safe installation with proper tightening and torque settings",
+    h3:"Ideal for emergencies and unexpected flat tyres",
+    h4:"Fast arrival anywhere in Dubai within 20–30 minutes", 
+    short: "Stranded with a flat tyre? Our team will replace it with your spare tyre in minutes.",
+    image: "/assets/img/service/Spare Tyre Change.png",
+    icon: "/assets/img/icon/service-icon_1-3.svg"
+  },
+  {
+    id: 6,
+    slug: "fix-puncture-tyre",
+    title: "Fix Puncture Tyre",
+     title_detail:"Professional On-Site Tyre Puncture Repair in Dubai",
+     p1:"When a nail, screw, or road debris causes a tyre puncture, you need a fast and reliable solution. At 800 SPEEDY, we provide on-site puncture repair anywhere in Dubai. Our technicians identify the puncture point, remove the object safely, and perform a durable plug or patch repair to restore your tyre’s integrity.",
+     p2:"Our puncture repairs are done using professional-grade tools that ensure a strong seal and long-lasting performance. Whether you’re parked at home, stuck on the roadside, or at your office, we arrive swiftly — typically within 20–30 minutes — and fix the tyre so you can continue driving safely.",
+      heading_title:"Durable & Safe Puncture Repairs on the Spot",
+    h1:"Fast and reliable puncture repair using professional tools",
+    h2:"Suitable for nails, screws, and small debris punctures",
+    h3:" Done at your home, office, parking, or roadside",
+    h4:"Fast arrival anywhere in Dubai within 20–30 minutes", 
+    short: "Quick puncture repair using premium plugs and sealing techniques to get you back on the road safely.",
+    image: "/assets/img/service/Fix Puncture Tyre.png",
+    icon: "/assets/img/icon/service-icon_1-3.svg"
+  }
+];
+
+export default services;

@@ -1,7 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import allServices from "../data/services"; // Adjust the path as necessary
 
 const ServiceDetails = () => {
+const { slug } = useParams();
+const service = allServices.find(s => s.slug === slug);
+   const navigate = useNavigate();
+  
+ 
+ 
+ console.log("Service ID from URL:", service);
+  if (!service) {
+    return <div>Service not found.</div>;
+  }
   return (
     <div className="service-details-area space-top space-extra-bottom overflow-hidden">
       <div className="container">
