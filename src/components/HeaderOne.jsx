@@ -105,7 +105,7 @@ const HeaderOne = () => {
     justifyContent: "center",
     alignItems: "center",
     margin: "auto 0",
-    height: "85%",
+    height: "75%",
        
                       // keeps vertical centering stable
   }}
