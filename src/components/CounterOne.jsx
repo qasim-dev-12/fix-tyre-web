@@ -11,7 +11,7 @@ const CounterOne = () => {
             <div className="col-lg-6">
               <div className="counter-card-wrap">
                 <div className="row gy-30 justify-content-between">
-                  <div className="col-sm-6 col-lg-auto">
+                  <div className="col-sm-6 col-lg-6 col-12 mb-4" style={{marginBottom:"4rem"}}>
                     <div className="counter-card">
                       <div className="media-body">
                         <h2 className="counter-card_number">
@@ -19,14 +19,14 @@ const CounterOne = () => {
                             {({ isVisible }) =>
                               isVisible && (
                                 <span className="counter-number">
-                                  <CountUp delay={0} start={0} end={2} />
+                                  <CountUp  start={1} end={12} />
                                   k+
                                 </span>
                               )
                             }
                           </TrackVisibility>
                         </h2>
-                        <p className="counter-card_text">Winning Award</p>
+                        <p className="counter-card_text">Happy Customers</p>
                       </div>
                       <div className="counter-card_icon">
                         <img
@@ -36,22 +36,22 @@ const CounterOne = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-sm-6 col-lg-auto">
+                  <div className="col-sm-6 col-lg-6 col-12 mb-4">
                     <div className="counter-card">
                       <div className="media-body">
                         <h2 className="counter-card_number">
                           <TrackVisibility once>
-                            {({ isVisible }) =>
-                              isVisible && (
-                                <span className="counter-number">
-                                  <CountUp delay={0} start={0} end={8} />
-                                  k+
-                                </span>
-                              )
-                            }
-                          </TrackVisibility>
+  {({ isVisible }) =>
+    isVisible && (
+      <span className="counter-number">
+        <CountUp delay={0} start={0} end={4.9} decimals={1} />
+        ★
+      </span>
+    )
+  }
+</TrackVisibility>
                         </h2>
-                        <p className="counter-card_text">Happy Clients</p>
+                        <p className="counter-card_text">Rated Tyre Services</p>
                       </div>
                       <div className="counter-card_icon">
                         <img
@@ -61,7 +61,7 @@ const CounterOne = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-sm-6 col-lg-auto">
+                  <div className="col-sm-6 col-lg-6 col-12 mb-4">
                     <div className="counter-card">
                       <div className="media-body">
                         <h2 className="counter-card_number">
@@ -69,14 +69,15 @@ const CounterOne = () => {
                             {({ isVisible }) =>
                               isVisible && (
                                 <span className="counter-number">
-                                  <CountUp delay={0} start={0} end={200} />
-                                  k+
+                                  <CountUp delay={0} start={0} end={100} />
+                                  +
                                 </span>
                               )
                             }
                           </TrackVisibility>
                         </h2>
-                        <p className="counter-card_text">Team Member</p>
+                        <p className="counter-card_text">Daily Tyre Fixes
+</p>
                       </div>
                       <div className="counter-card_icon">
                         <img
@@ -86,22 +87,22 @@ const CounterOne = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-sm-6 col-lg-auto">
+                  <div className="col-sm-6 col-lg-6 col-12 mb-4">
                     <div className="counter-card">
                       <div className="media-body">
                         <h2 className="counter-card_number">
-                          <TrackVisibility once>
-                            {({ isVisible }) =>
-                              isVisible && (
-                                <span className="counter-number">
-                                  <CountUp delay={0} start={0} end={9} />
-                                  k+
-                                </span>
-                              )
-                            }
-                          </TrackVisibility>
+                         <TrackVisibility once>
+  {({ isVisible }) =>
+    isVisible && (
+      <span className="counter-number">
+        <CountUp delay={0} start={0} end={20} />
+        Min
+      </span>
+    )
+  }
+</TrackVisibility>
                         </h2>
-                        <p className="counter-card_text">Project Done</p>
+                        <p className="counter-card_text">Arrival Time</p>
                       </div>
                       <div className="counter-card_icon">
                         <img
@@ -126,23 +127,23 @@ const CounterOne = () => {
                   <ul>
                     <li>
                       <i className="fas fa-check" />
-                      24/7 Mobile Tyre Repair Anywhere in Dubai
+                     24/7 Mobile Tyre Repair Anywhere in Dubai
                     </li>
                     <li>
                       <i className="fas fa-check" />
-                      20–30 Minutes Fast Arrival Guarantee
+                     20–30 Minutes Fast Arrival Guarantee
                     </li>
                     <li>
                       <i className="fas fa-check" />
                       Expert Technicians with Years of Experience
                     </li>
-                     <li>
+                      <li>
                       <i className="fas fa-check" />
-                       Affordable Rates with No Hidden Charges
+                     Affordable Rates with No Hidden Charges
                     </li>
-                     <li>
+                    <li>
                       <i className="fas fa-check" />
-                      New Tyres, Puncture Fix, Battery Boost & More
+                    New Tyres, Puncture Fix, Battery Boost & More
                     </li>
                   </ul>
                 </div>

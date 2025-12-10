@@ -167,15 +167,15 @@
   max-width: 190px;   /* prevents it from becoming too tall */
   object-fit: cover;
   display: block;
-  margin-top: 1.5rem;       /* default - no extra offset */
+  margin-top: 1.7rem;       /* default - no extra offset */
   transition: margin-top 0.25s ease, transform 0.25s ease;
 }
 
 /* When wrapper has sticky class, apply the scroll offset */
 .sticky-wrapper.sticky .header-navbar-logo .logo-img {
-  margin-top: 40px;    /* change this value to desired offset on scroll */
+  margin-top: 36px;    /* change this value to desired offset on scroll */
   
-   height: 120px; 
+   height: 101px; 
 
   
 }

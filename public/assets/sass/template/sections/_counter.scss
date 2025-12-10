@@ -11,7 +11,7 @@
 .counter-card-wrap {
     padding: 40px 60px;
     .counter-card {
-        min-width: 224px;
+        min-width: 254px;
     }
 }
 .counter-checklist-wrap {
@@ -90,6 +90,7 @@
 @include ml {
     .counter-card-wrap {
         padding: 40px 40px;
+        margin-bottom: 4rem;
     }
     .counter-card_number {
         font-size: 44px;
@@ -117,12 +118,14 @@
         padding: 30px 30px;
     }
     .counter-card-wrap .counter-card {
-        min-width: max-content;
+        width: 12rem;
     }
 }
 @include md {
     .counter-card-wrap .counter-card {
         text-align: start;
+        width: 16rem;
+        
     }
     .counter-card-wrap {
         padding: 30px 30px;

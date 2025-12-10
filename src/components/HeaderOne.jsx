@@ -96,7 +96,7 @@ const HeaderOne = () => {
           </div>
         </div>
         <div className={`sticky-wrapper ${scroll && "sticky"}`}>
-          {/* Main Menu Area */}
+         
           <div className="menu-area">
             <div
   className="header-navbar-logo"
@@ -107,7 +107,7 @@ const HeaderOne = () => {
     margin: "auto 0",
     height: "75%",
        
-                      // keeps vertical centering stable
+                    
   }}
 >
   <Link to="/">
@@ -136,7 +136,8 @@ const HeaderOne = () => {
                   <nav className="main-menu d-none d-lg-inline-block">
                     <ul>
                       <li>
-                        <Link to="/">Homeee</Link>
+                        <Link to="/">Home</Link>
+                        
                        
                         {/* <ul className="sub-menu">
                           <li>
@@ -202,6 +203,24 @@ const HeaderOne = () => {
                         </ul> */}
                       </li>
                       <li>
+                          <Link to="/service/tyre-repair"> Tyre Repair</Link>
+                      </li>
+                       <li>
+                          <Link to="/service/buy-new-tyre"> Buy New Tyre</Link>
+                      </li>
+                      <li>
+                          <Link to="/service/tyre-replacement"> Tyre Replacement</Link>
+                      </li>
+                       <li>
+                          <Link to="/service/air-fill"> Air Fill</Link>
+                      </li>
+                        <li>
+                          <Link to="/service/spare-tyre-change">Spare Tyre Change</Link>
+                      </li>
+                       <li>
+                          <Link to="/service/fix-puncture-tyre">Fix Puncture Tyre</Link>
+                      </li>
+                      {/* <li>
                         <NavLink
                           to="/about"
                           className={(navData) =>
@@ -210,8 +229,8 @@ const HeaderOne = () => {
                         >
                           About Us
                         </NavLink>
-                      </li>
-                      <li className="menu-item-has-children">
+                      </li> */}
+                      {/* <li className="menu-item-has-children">
                         <Link to="#">Services</Link>
                         <ul className="sub-menu">
                           <li>
@@ -231,12 +250,22 @@ const HeaderOne = () => {
                                 navData.isActive ? "active" : ""
                               }
                             >
-                              Service Details
+                              Tyre repair
+                            </NavLink>
+                          </li>
+                            <li>
+                            <NavLink
+                              to="/service-details"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Tyre repair
                             </NavLink>
                           </li>
                         </ul>
-                      </li>
-                      <li className="menu-item-has-children">
+                      </li> */}
+                      {/* <li className="menu-item-has-children">
                         <Link to="#">Projects</Link>
                         <ul className="sub-menu">
                           <li>
@@ -260,7 +289,7 @@ const HeaderOne = () => {
                             </NavLink>
                           </li>
                         </ul>
-                      </li>
+                      </li> */}
                       {/* <li className="menu-item-has-children">
                         <Link to="#">Blog</Link>
                         <ul className="sub-menu">
@@ -361,7 +390,7 @@ const HeaderOne = () => {
                           </li>
                         </ul>
                       </li> */}
-                      <li>
+                      {/* <li>
                         <NavLink
                           to="/contact"
                           className={(navData) =>
@@ -370,7 +399,7 @@ const HeaderOne = () => {
                         >
                           Contact
                         </NavLink>
-                      </li>
+                      </li> */}
                     </ul>
                   </nav>
                   <div className="navbar-right d-inline-flex d-lg-none">
