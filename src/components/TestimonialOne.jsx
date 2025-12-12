@@ -1,17 +1,20 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
+import bg from "../assets/img/bg/testimonial-bg1-1.png";
+import testi1 from "../assets/img/testimonial/testimonial-1-1.png";
 const TestimonialOne = () => {
   return (
     <div
       className="testimonial-area-1 overflow-hidden"
-      style={{ backgroundImage: "url(assets/img/bg/testimonial-bg1-1.png)" }}
+      style={{ backgroundImage: `url(${bg})` }}
     >
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
             <div className="testimonial-thumb1">
-              <img src="assets/img/testimonial/testimonial-1-1.png" alt="Fixturbo" />
+              <img src={testi1}
+               alt="Fixturbo" />
             </div>
           </div>
           <div className="col-lg-6">

@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import shape1 from "../assets/img/normal/about_shape1-2.svg";
+import shape2 from "../assets/img/normal/about_shape1-1.svg";
 
 const AboutOne = () => {
   return (
@@ -11,12 +13,12 @@ const AboutOne = () => {
           height:"150px"
         }}
           className="about1-shape-img-1 spin"
-          src="assets/img/normal/about_shape1-2.svg"
+          src={shape1}
           alt="Fixturbo"
         />
         <img
           className="about1-shape-img-2 spin2"
-          src="assets/img/normal/about_shape1-1.svg"
+          src={shape2}
           alt="Fixturbo"
         />
       </div>
