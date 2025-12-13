@@ -25,14 +25,14 @@ const HeroOne = () => {
               We offer fast spare tyre changes, puncture fixes, and flat tyre repairs.
 Buy brand-new tyres from us at great prices with reliable service every time
               </p>
-              <div className="btn-group">
+              {/* <div className="btn-group">
                 <Link to="/about" className="btn">
                   Learn About Us
                 </Link>
                 <Link to="/service" className="btn style-border">
                   Our Services
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-xl-6 hero-img">

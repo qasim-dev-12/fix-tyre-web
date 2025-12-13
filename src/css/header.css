@@ -176,3 +176,21 @@
 @media (min-width: 768px) {
   .sticky-bottom.button-wrapper { display: none; }
 }
+/* Hide dropdown by default */
+.main-menu ul li.menu-item-has-children > .sub-menu {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  position: absolute;
+  background: #fff;
+  min-width: 220px;
+  z-index: 999;
+}
+
+/* Show dropdown on hover */
+.main-menu ul li.menu-item-has-children:hover > .sub-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}

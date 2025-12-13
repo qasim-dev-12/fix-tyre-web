@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import ".././css/header.css";
+
 
 
 const HeaderOne = () => {
@@ -101,6 +103,7 @@ const HeaderOne = () => {
           <div className="menu-area">
             <div
             
+            
   className="header-navbar-logo"
   style={{
     display: "flex",
@@ -108,6 +111,7 @@ const HeaderOne = () => {
     alignItems: "center",
     margin: "auto 0",
     height: "100%",
+    
    
    
        
@@ -272,7 +276,7 @@ const HeaderOne = () => {
                           </li>
                         </ul>
                       </li> */}
-                      {/* <li className="menu-item-has-children">
+                      <li className="menu-item-has-children">
                         <Link to="#">Projects</Link>
                         <ul className="sub-menu">
                           <li>
@@ -296,7 +300,7 @@ const HeaderOne = () => {
                             </NavLink>
                           </li>
                         </ul>
-                      </li> */}
+                      </li>
                       {/* <li className="menu-item-has-children">
                         <Link to="#">Blog</Link>
                         <ul className="sub-menu">
@@ -409,6 +413,7 @@ const HeaderOne = () => {
                       </li> */}
                     </ul>
                   </nav>
+                  
                   <div className="navbar-right d-inline-flex d-lg-none">
                     <button
                       type="button"
@@ -417,8 +422,95 @@ const HeaderOne = () => {
                     >
                       <i className="fas fa-bars" />
                     </button>
+                    
                   </div>
                 </div>
+
+
+<div className="col-auto">
+                  <nav className="main-menu d-md-inline-blobk d-lg-none">
+                    <ul>
+                      <li>
+                        <Link to="/">Home</Link>
+                        
+                      </li>
+                    <li className="menu-item-has-children">
+  <Link to="#">Services</Link>
+
+  <ul className="sub-menu">
+    <li>
+      <NavLink
+        to="/service/tyre-repair"
+        className={(navData) => (navData.isActive ? "active" : "")}
+      >
+        Tyre Repair
+      </NavLink>
+    </li>
+
+    <li>
+      <NavLink
+        to="/service/buy-new-tyre"
+        className={(navData) => (navData.isActive ? "active" : "")}
+      >
+        Buy New Tyre
+      </NavLink>
+    </li>
+
+    <li>
+      <NavLink
+        to="/service/tyre-replacement"
+        className={(navData) => (navData.isActive ? "active" : "")}
+      >
+        Tyre Replacement
+      </NavLink>
+    </li>
+
+    <li>
+      <NavLink
+        to="/service/air-fill"
+        className={(navData) => (navData.isActive ? "active" : "")}
+      >
+        Air Fill
+      </NavLink>
+    </li>
+
+    <li>
+      <NavLink
+        to="/service/spare-tyre-change"
+        className={(navData) => (navData.isActive ? "active" : "")}
+      >
+        Spare Tyre Change
+      </NavLink>
+    </li>
+
+    <li>
+      <NavLink
+        to="/service/fix-puncture-tyre"
+        className={(navData) => (navData.isActive ? "active" : "")}
+      >
+        Fix Puncture Tyre
+      </NavLink>
+    </li>
+  </ul>
+</li>
+
+
+                      
+                     
+                       
+                    
+                   
+                  
+                     
+                     
+                    </ul>
+                  </nav>
+                  
+                
+                </div>
+
+
+
                 {/* <div className="col-auto ms-auto d-xl-block d-none">
                   <div className="navbar-right-desc">
                     <img src="/assets/img/icon/chat.svg" alt="Fixturbo" />
@@ -447,7 +539,7 @@ const HeaderOne = () => {
                 <i className="fa fa-times" />
               </button>
             </div>
-            <div className="mobile-menu">
+            <div className="mobile-menu d-block">
               <ul id="offcanvas-navigation">
                 <li className="menu-item-has-children submenu-item-has-children">
                   <Link to="#">Home</Link>

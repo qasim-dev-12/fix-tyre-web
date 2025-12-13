@@ -61,7 +61,8 @@
 }
 @include xl {
     .testimonial-area-1 {
-        background-position: right;
+        background-position: left;
+        background-repeat: no-repeat;
     }
 }
 @include lg {

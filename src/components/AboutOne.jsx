@@ -46,8 +46,11 @@ const AboutOne = () => {
                 </p>
               </div>
               <div className="row gy-4 justify-content-xl-between justify-content-end align-items-center flex-row-reverse">
-                <div className="col-lg-auto">
-                  <div className="about-year-wrap">
+                <div className="col-lg-auto" style={{width:"100%"}}>
+                  <div className="about-year-wrap" style={{
+                    width:"100%"
+                    
+                    }}>
                     <div
                       className="about-year-mask-wrap"
                       style={{
@@ -88,7 +91,12 @@ const AboutOne = () => {
                 </div>
               </div>
               <div className="btn-wrap mt-20">
-                <Link to="/about" className="btn style2 mt-xl-0 mt-20">
+                {/* <Link to="/about" className="btn style2 mt-xl-0 mt-20">
+                  Read More <i className="fas fa-arrow-right ms-2" />
+                </Link> */}
+                <Link to="/" className="btn style2 mt-xl-0 mt-20" style={{
+                  color:"#000"
+                }}>
                   Read More <i className="fas fa-arrow-right ms-2" />
                 </Link>
               </div>
