@@ -49,6 +49,7 @@ const HeaderOne = () => {
   const mobileMenu = () => {
     setActive(!active);
   };
+  
   return (
     <>
       <header className="nav-header header-layout1">
@@ -276,7 +277,7 @@ const HeaderOne = () => {
                           </li>
                         </ul>
                       </li> */}
-                      <li className="menu-item-has-children">
+                      {/* <li className="menu-item-has-children">
                         <Link to="#">Projects</Link>
                         <ul className="sub-menu">
                           <li>
@@ -300,7 +301,7 @@ const HeaderOne = () => {
                             </NavLink>
                           </li>
                         </ul>
-                      </li>
+                      </li> */}
                       {/* <li className="menu-item-has-children">
                         <Link to="#">Blog</Link>
                         <ul className="sub-menu">

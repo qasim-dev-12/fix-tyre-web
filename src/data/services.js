@@ -18,7 +18,7 @@ const services = [
 
     short: "We fix punctures, leaks, and tyre damage on the spot using professional tools—fast, safe, and reliable.",
     image: "/assets/img/service/repair-tyre-1.png",
-    icon: "/assets/img/icon/service-icon_1-1.svg",
+    icon: "/assets/img/icon/marquee-icon-1-2.svg",
     img1:"/assets/img/service/repair-tyre-1.png",
     img2:"/assets/img/service/repair-tyre-2.png",
     img3:"/assets/img/service/repair-tyre-3.png"
@@ -38,7 +38,7 @@ const services = [
     title: "Buy New Tyre",
     short: "Choose from premium tyres for all car models with expert installation at your home or roadside.",
     image: "/assets/img/service/Buy New Tyre.png",
-    icon: "/assets/img/icon/service-icon_1-2.svg",
+       icon: "/assets/img/icon/marquee-icon-1-2.svg",
     img1:"/assets/img/service/big-new-tyre.png",
     img2:"/assets/img/service/side new tyre.png",
     img3:"/assets/img/service/side new tyre 2.png"
@@ -57,7 +57,7 @@ const services = [
     h4:"Wide range of tyre brands available for all car types", 
     short: "Complete tyre change service with balancing and safety checks—done quickly at your location.",
     image: "/assets/img/service/Tyre Replacement.png",
-    icon: "/assets/img/icon/service-icon_1-3.svg",
+       icon: "/assets/img/icon/marquee-icon-1-2.svg",
      img1:"/assets/img/service/tyre-rep-big.png",
     img2:"/assets/img/service/tyre-rep-side-1.png",
     img3:"/assets/img/service/tyre-rep-side-2.png"
@@ -76,7 +76,7 @@ const services = [
     h4:"Quick 20–30 minute arrival anywhere in Dubai", 
     short: "We check and fill your tyre pressure (air or nitrogen) to ensure smooth driving and fuel efficiency.",
     image: "/assets/img/service/Air Fill.png",
-    icon: "/assets/img/icon/service-icon_1-3.svg",
+    icon: "/assets/img/icon/marquee-icon-1-2.svg",
      img1:"/assets/img/service/BIG IMAGE-AIR FILL.png",
     img2:"/assets/img/service/SIDE IMAGE-AIR-FILL1.png",
     img3:"/assets/img/service/SIDE IMAGE-AIR-FILL2.png"
@@ -95,7 +95,7 @@ const services = [
     h4:"Fast arrival anywhere in Dubai within 20–30 minutes", 
     short: "Stranded with a flat tyre? Our team will replace it with your spare tyre in minutes.",
     image: "/assets/img/service/Spare Tyre Change.png",
-    icon: "/assets/img/icon/service-icon_1-3.svg",
+        icon: "/assets/img/icon/marquee-icon-1-2.svg",
       img1:"/assets/img/service/big-spare-tyre.png",
     img2:"/assets/img/service/side-spare-tyre.png",
     img3:"/assets/img/service/side-spare-tyre-2.png"
@@ -114,7 +114,7 @@ const services = [
     h4:"Fast arrival anywhere in Dubai within 20–30 minutes", 
     short: "Quick puncture repair using premium plugs and sealing techniques to get you back on the road safely.",
     image: "/assets/img/service/Fix Puncture Tyre.png",
-    icon: "/assets/img/icon/service-icon_1-3.svg",
+       icon: "/assets/img/icon/marquee-icon-1-2.svg",
      img1:"/assets/img/service/fix-puncture-big.png",
     img2:"/assets/img/service/fix-puncture-1.png",
     img3:"/assets/img/service/fix-puncture-2.png"

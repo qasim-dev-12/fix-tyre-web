@@ -63,6 +63,7 @@
     }
     &:hover {
         .service-card_icon {
+            color: #171717 !important;
             img {
                 transform: rotateY(180deg);
             }

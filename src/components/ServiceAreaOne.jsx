@@ -2,8 +2,36 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import services from "../data/services"; // adjust path if your structure differs
+import { useState, useEffect } from "react";
+import "../css/header.css";
 
 const ServiceAreaOne = () => {
+ function SvgIcon({ src, style }) {
+  const [svg, setSvg] = React.useState("");
+
+  React.useEffect(() => {
+    fetch(src)
+      .then(res => res.text())
+      .then(data => {
+        // 🔥 Remove hardcoded fills & strokes
+        const cleaned = data
+          .replace(/fill="[^"]*"/g, 'fill="currentColor"')
+          .replace(/stroke="[^"]*"/g, 'stroke="currentColor"')
+          .replace(/style="[^"]*"/g, "");
+
+        setSvg(cleaned);
+      });
+  }, [src]);
+
+  return (
+    <span
+      
+      style={style}
+      dangerouslySetInnerHTML={{ __html: svg }}
+    />
+  );
+}
+
   return (
     <div className="service-area-1 space-top bg-smoke overflow-hidden">
       <div className="container">
@@ -24,7 +52,7 @@ const ServiceAreaOne = () => {
               <div className="service-card">
                 <div className="service-card_content">
                   <div className="service-card_icon">
-                    <img src={s.icon} alt={s.title} />
+                  <SvgIcon src={s.icon }  style={{ color: "#000",innerWidth:"20px" }}  />
                   </div>
 
                   <h4 className="service-card_title h5">
