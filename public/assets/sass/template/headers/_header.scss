@@ -363,6 +363,24 @@
   }
 }
 
+@media (max-width: 426px) {
+  .main-menu {
+    > ul {
+      > li {
+        > a {
+          padding: 15px 0; // 👈 your mobile padding
+        }
+      }
+    }
+  }
+  .main-menu ul.sub-menu {
+   
+    left: -134px;
+
+    
+  }
+}
+
 .simple-icon {
   border: none;
   background-color: transparent;
