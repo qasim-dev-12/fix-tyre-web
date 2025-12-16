@@ -11,6 +11,12 @@
         object-fit: contain;
         object-position: bottom;
     }
+    @media (max-width: 1024px) {
+        img{
+            margin-bottom: 10px;
+        }
+  /* styles here */
+}
 }
 .testi-card {
     background: #232323;
