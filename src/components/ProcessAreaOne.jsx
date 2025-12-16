@@ -1,4 +1,6 @@
 import React from "react";
+import icon from "../../src/assets/img/normal/about_shape1-1.svg";
+import icon2 from "../../src/assets/img/normal/about_shape1-2.svg";
 
 const ProcessAreaOne = () => {
   return (
@@ -9,12 +11,12 @@ const ProcessAreaOne = () => {
           width:"150px"
         }}
           className="about1-shape-img-1 spin"
-          src="/assets/img/normal/about_shape1-2.svg"
+          src={icon}
           alt="800speedy"
         />
         <img
           className="about1-shape-img-2 spin2"
-          src="/assets/img/normal/about_shape1-1.svg"
+          src={icon2}
           alt="800speedy"
         />
       </div>

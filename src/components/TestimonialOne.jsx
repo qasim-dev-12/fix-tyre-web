@@ -4,6 +4,7 @@ import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
 import bg from "../assets/img/bg/testimonial-bg1-1.png";
 import testi1 from "../assets/img/testimonial/testimonial-1-1.png";
 import img from "../assets/img/icon/dialog (1).png";
+import man from "../../src/assets/img/testimonial/testimonial-1-1.png";
 // import { ReactComponent as SvgIcon } from "../assets/img/icon/quote.png";
 const TestimonialOne = () => {
   return (
@@ -15,7 +16,7 @@ const TestimonialOne = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="testimonial-thumb1">
-              <img src={testi1}
+              <img src={man}
                alt="800speedy" />
             </div>
           </div>
