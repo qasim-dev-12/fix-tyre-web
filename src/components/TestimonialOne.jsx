@@ -14,7 +14,7 @@ const TestimonialOne = () => {
     >
       <div className="container">
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-6" style={{marginTop:"auto"}}>
             <div className="testimonial-thumb1">
               <img src={man}
                alt="800speedy" />
