@@ -14,7 +14,7 @@ const ServiceAreaTwo = () => {
                 <img
                   className="title-bg-shape shape-center"
                   src="assets/img/bg/title-bg-shape.png"
-                  alt="Fixturbo"
+                  alt="800speedy"
                 />
               </h2>
             </div>
@@ -33,7 +33,7 @@ const ServiceAreaTwo = () => {
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="assets/img/icon/service-icon_1-1.svg" alt="Fixturbo" />
+                    <img src="assets/img/icon/service-icon_1-1.svg" alt="800speedy" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/service-details">Mechanic Masters</Link>
@@ -59,7 +59,7 @@ const ServiceAreaTwo = () => {
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="assets/img/icon/service-icon_1-2.svg" alt="Fixturbo" />
+                    <img src="assets/img/icon/service-icon_1-2.svg" alt="800speedy" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/service-details">Speedy Auto Repair</Link>
@@ -85,7 +85,7 @@ const ServiceAreaTwo = () => {
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="assets/img/icon/service-icon_1-3.svg" alt="Fixturbo" />
+                    <img src="assets/img/icon/service-icon_1-3.svg" alt="800speedy" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/service-details">Precision Auto Works</Link>

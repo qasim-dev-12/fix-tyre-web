@@ -25,7 +25,7 @@ const Cart = () => {
                       width={91}
                       height={91}
                       src="assets/img/update-img/category/category1-1.png"
-                      alt="Fixturbo"
+                      alt="800speedy"
                     />
                   </Link>
                 </td>
@@ -78,7 +78,7 @@ const Cart = () => {
                       width={91}
                       height={91}
                       src="assets/img/update-img/category/category1-2.png"
-                      alt="Fixturbo"
+                      alt="800speedy"
                     />
                   </Link>
                 </td>
@@ -131,7 +131,7 @@ const Cart = () => {
                       width={91}
                       height={91}
                       src="assets/img/update-img/category/category1-4.png"
-                      alt="Fixturbo"
+                      alt="800speedy"
                     />
                   </Link>
                 </td>

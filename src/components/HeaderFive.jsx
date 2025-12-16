@@ -54,7 +54,7 @@ const HeaderFive = () => {
             <div className="col-auto d-none d-lg-block">
               <div className="header-logo">
                 <Link to="/">
-                  <img src="assets/img/logo.svg" alt="Fixturbo" />
+                  <img src="assets/img/logo.svg" alt="800speedy" />
                 </Link>
               </div>
             </div>
@@ -155,7 +155,7 @@ const HeaderFive = () => {
               <div className="col-auto d-lg-none d-block">
                 <div className="header-logo">
                   <Link to="/">
-                    <img src="assets/img/logo.svg" alt="Fixturbo" />
+                    <img src="assets/img/logo.svg" alt="800speedy" />
                   </Link>
                 </div>
               </div>
@@ -178,7 +178,7 @@ const HeaderFive = () => {
               <div className="col-auto header-sticky-logo">
                 <div className="header-logo">
                   <Link to="/">
-                    <img src="assets/img/logo.svg" alt="Fixturbo" />
+                    <img src="assets/img/logo.svg" alt="800speedy" />
                   </Link>
                 </div>
               </div>
@@ -472,7 +472,7 @@ const HeaderFive = () => {
           <div className="mobile-menu-area">
             <div className="mobile-logo">
               <Link to="/">
-                <img src="assets/img/logo.svg" alt="Fixturbo" />
+                <img src="assets/img/logo.svg" alt="800speedy" />
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
                 <i className="fa fa-times" />

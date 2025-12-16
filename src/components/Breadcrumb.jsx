@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Breadcrumb = ({ title }) => {
   return (
     <div className="breadcumb-wrapper">
-      <div className="container">
+      {/* <div className="container">
         <div className="row">
           <div className="col-lg-6">
             <div className="breadcumb-content">
@@ -19,11 +19,11 @@ const Breadcrumb = ({ title }) => {
           </div>
           <div className="col-lg-6 d-lg-block d-none">
             <div className="breadcumb-thumb">
-              <img src="/assets/img/normal/breadcrumb-thumb.png" alt="Fixturbo" />
+              <img src="/assets/img/normal/breadcrumb-thumb.png" alt="800speedy" />
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

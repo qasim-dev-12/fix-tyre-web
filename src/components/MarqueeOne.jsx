@@ -12,7 +12,7 @@
 //                 <Link to="#">
 //                   <img
 //                     src="assets/img/icon/marquee-icon-1-1.svg"
-//                     alt="Fixturbo"
+//                     alt="800speedy"
 //                   />
 //                   <span>Tyre Repair</span>
 //                 </Link>
@@ -21,7 +21,7 @@
 //                 <Link to="#">
 //                   <img
 //                     src="assets/img/icon/marquee-icon-1-2.svg"
-//                     alt="Fixturbo"
+//                     alt="800speedy"
 //                   />
 //                   <span className="text-stroke">Tyre Replacement </span>
 //                 </Link>
@@ -30,7 +30,7 @@
 //                 <Link to="#">
 //                   <img
 //                     src="assets/img/icon/marquee-icon-1-2.svg"
-//                     alt="Fixturbo"
+//                     alt="800speedy"
 //                   />
 //                   <span className="text-stroke">Air Fill </span>
 //                 </Link>
@@ -39,7 +39,7 @@
 //                 <Link to="#">
 //                   <img
 //                     src="assets/img/icon/marquee-icon-1-2.svg"
-//                     alt="Fixturbo"
+//                     alt="800speedy"
 //                   />
 //                   <span className="text-stroke">Spare Tyre Change  </span>
 //                 </Link>
@@ -48,7 +48,7 @@
 //                 <Link to="#">
 //                   <img
 //                     src="assets/img/icon/marquee-icon-1-2.svg"
-//                     alt="Fixturbo"
+//                     alt="800speedy"
 //                   />
 //                   <span className="text-stroke">Fix Puncture Tyre </span>
 //                 </Link>
@@ -58,7 +58,7 @@
 //                 <Link to="#">
 //                   <img
 //                     src="assets/img/icon/marquee-icon-1-2.svg"
-//                     alt="Fixturbo"
+//                     alt="800speedy"
 //                   />
 //                   <span className="text-stroke">Buy New Tyre</span>
 //                 </Link>

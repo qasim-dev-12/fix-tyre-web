@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import '../css/header.css';
+import whatsappIcon from "../../src/assets/img/icon/new-500.png";
+import call from "../../src/assets/img/icon/call (1).png";
 
 const FooterAreaOne = () => {
   return (
@@ -11,11 +13,11 @@ const FooterAreaOne = () => {
       <div className="container">
         <div className="widget-area">
           <div className="row justify-content-between">
-            <div className="col-md-6 col-xl-auto">
+            <div className="col-md-6 col-6 text-center col-xl-auto">
               <div className="widget widget_nav_menu footer-widget">
                 <h3 className="widget_title">Company</h3>
                 <div className="menu-all-pages-container">
-                  <ul className="menu">
+                  <ul className="menu" style={{textAlign:"-webkit-center"}}>
                     <li>
                       <Link to="/about">About</Link>
                     </li>
@@ -32,11 +34,11 @@ const FooterAreaOne = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-xl-auto">
+            <div className="col-md-6 col-6 text-center col-xl-auto">
               <div className="widget widget_nav_menu footer-widget">
                 <h3 className="widget_title">Services</h3>
                 <div className="menu-all-pages-container">
-                  <ul className="menu">
+                  <ul className="menu" style={{textAlign:"-webkit-center"}}>
                     <li>
                       <Link to="/service">Mechanic Masters</Link>
                     </li>
@@ -56,7 +58,7 @@ const FooterAreaOne = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-xl-auto">
+            <div className="col-md-6 col-6 text-center col-xl-auto">
               <div className="widget footer-widget">
                 <h3 className="widget_title">Contact</h3>
                 <div className="widget-contact">
@@ -72,7 +74,7 @@ const FooterAreaOne = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-xl-auto">
+            <div className="col-md-6 col-6 text-center col-xl-auto">
               <div className="widget footer-widget widget-newsletter">
                 <h3 className="widget_title">Get In Touch</h3>
                 <p className="footer-text mb-50">
@@ -101,7 +103,7 @@ const FooterAreaOne = () => {
           <div className="row gy-3 justify-content-md-between justify-content-center">
             <div className="col-auto align-self-center">
               <p className="copyright-text text-center">
-                © <Link to="#">Fixturbo</Link> 2024 | All Rights Reserved
+                © <Link to="#">800speedy</Link> 2024 | All Rights Reserved
               </p>
             </div>
             <div className="col-auto">
@@ -122,7 +124,7 @@ const FooterAreaOne = () => {
           style={{ padding: "8px 12px" }}
         >
           <img
-            src="/assets/img/new-50.png"
+            src={whatsappIcon}
             alt="WhatsApp"
             className="btn-icon"
             style={{ width: "20px", height: "20px" }}
@@ -136,7 +138,7 @@ const FooterAreaOne = () => {
           style={{ padding: "8px 12px" }}
         >
           <img
-            src="/assets/img/call.png"
+            src={call}
             alt="Call Us"
             className="btn-icon"
             style={{ width: "20px", height: "20px" }}

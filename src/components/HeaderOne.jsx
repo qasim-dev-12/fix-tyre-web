@@ -123,7 +123,7 @@ const HeaderOne = () => {
   <Link to="/">
   <img
     src="/assets/img/logo-white.png"
-    alt="Fixturbo"
+    alt="800speedy"
     className="logo-img"
   />
 </Link>
@@ -140,7 +140,7 @@ const HeaderOne = () => {
                     <Link to="/" >
                       <img style={{
                         width:"171px"
-                      }} src="assets/img/logo-white.png" alt="Fixturbo" />
+                      }} src="assets/img/logo-white.png" alt="800speedy" />
                     </Link>
                   </div>
                 </div> */}
@@ -514,7 +514,7 @@ const HeaderOne = () => {
 
                 {/* <div className="col-auto ms-auto d-xl-block d-none">
                   <div className="navbar-right-desc">
-                    <img src="/assets/img/icon/chat.svg" alt="Fixturbo" />
+                    <img src="/assets/img/icon/chat.svg" alt="800speedy" />
                     <div className="navbar-right-desc-details">
                       <h6 className="title">Need help?</h6>
                       <Link className="link" to="tel:+2590256215">
@@ -534,7 +534,7 @@ const HeaderOne = () => {
           <div className="mobile-menu-area">
             <div className="mobile-logo">
               <Link to="/">
-                <img src="/assets/img/logo.svg" alt="Fixturbo" />
+                <img src="/assets/img/logo.svg" alt="800speedy" />
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
                 <i className="fa fa-times" />

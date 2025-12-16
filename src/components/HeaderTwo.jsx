@@ -54,7 +54,7 @@ const HeaderTwo = () => {
             <div className="col-auto d-none d-lg-block">
               <div className="header-logo">
                 <Link to="/">
-                  <img src="assets/img/logo.svg" alt="Fixturbo" />
+                  <img src="assets/img/logo.svg" alt="800speedy" />
                 </Link>
               </div>
             </div>
@@ -93,7 +93,7 @@ const HeaderTwo = () => {
               <div className="col-auto header-navbar-logo">
                 <div className="header-logo">
                   <Link to="/">
-                    <img src="assets/img/logo-white.svg" alt="Fixturbo" />
+                    <img src="assets/img/logo-white.svg" alt="800speedy" />
                   </Link>
                 </div>
               </div>
@@ -372,7 +372,7 @@ const HeaderTwo = () => {
           <div className="mobile-menu-area">
             <div className="mobile-logo">
               <Link to="/">
-                <img src="assets/img/logo.svg" alt="Fixturbo" />
+                <img src="assets/img/logo.svg" alt="800speedy" />
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
                 <i className="fa fa-times" />

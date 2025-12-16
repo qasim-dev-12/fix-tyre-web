@@ -16,7 +16,7 @@ const TestimonialOne = () => {
           <div className="col-lg-6">
             <div className="testimonial-thumb1">
               <img src={testi1}
-               alt="Fixturbo" />
+               alt="800speedy" />
             </div>
           </div>
           <div className="col-lg-6">
@@ -113,7 +113,7 @@ const TestimonialOne = () => {
                             <div className="quote-icon">
                               <img
                                 src="assets/img/icon/quote1-1.svg"
-                                alt="Fixturbo"
+                                alt="800speedy"
                               />
                             </div>
                           </div>
@@ -147,7 +147,7 @@ const TestimonialOne = () => {
                             <div className="quote-icon">
                               <img
                                 src="assets/img/icon/quote1-1.svg"
-                                alt="Fixturbo"
+                                alt="800speedy"
                               />
                             </div>
                           </div>
@@ -182,7 +182,7 @@ const TestimonialOne = () => {
                             <div className="quote-icon">
                               <img
                                 src="assets/img/icon/quote1-1.svg"
-                                alt="Fixturbo"
+                                alt="800speedy"
                               />
                             </div>
                           </div>
@@ -216,7 +216,7 @@ const TestimonialOne = () => {
                             <div className="quote-icon">
                               <img
                                 src="assets/img/icon/quote1-1.svg"
-                                alt="Fixturbo"
+                                alt="800speedy"
                               />
                             </div>
                           </div>

@@ -11,7 +11,7 @@ const FooterAreaTwo = () => {
         <div className="footer-top-2">
           <div className="footer-logo">
             <Link to="/">
-              <img src="assets/img/logo-white.svg" alt="Fixturbo" />
+              <img src="assets/img/logo-white.svg" alt="800speedy" />
             </Link>
           </div>
           <h3 className="footer-top-title text-white">
@@ -153,7 +153,7 @@ const FooterAreaTwo = () => {
           <div className="row gy-3 justify-content-md-between justify-content-center">
             <div className="col-auto align-self-center">
               <p className="copyright-text text-center">
-                © <Link to="#">Fixturbo</Link> 2024 | All Rights Reserved
+                © <Link to="#">800speedy</Link> 2024 | All Rights Reserved
               </p>
             </div>
             <div className="col-auto">

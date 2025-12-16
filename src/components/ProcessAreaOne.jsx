@@ -10,12 +10,12 @@ const ProcessAreaOne = () => {
         }}
           className="about1-shape-img-1 spin"
           src="/assets/img/normal/about_shape1-2.svg"
-          alt="Fixturbo"
+          alt="800speedy"
         />
         <img
           className="about1-shape-img-2 spin2"
           src="/assets/img/normal/about_shape1-1.svg"
-          alt="Fixturbo"
+          alt="800speedy"
         />
       </div>
       <div className="container">
@@ -33,7 +33,7 @@ const ProcessAreaOne = () => {
           <div className="col-lg-4 process-card-wrap">
             <div className="process-card">
               <div className="process-card-icon">
-                <img src="/assets/img/icon/process-icon-1-1.svg" alt="Fixturbo" />
+                <img src="/assets/img/icon/process-icon-1-1.svg" alt="800speedy" />
               </div>
               <h4 className="process-card-title">Mobile Tyre Inspection </h4>
               <p className="process-card-text">
@@ -44,7 +44,7 @@ const ProcessAreaOne = () => {
           <div className="col-lg-4 process-card-wrap">
             <div className="process-card process-card-center">
               <div className="process-card-icon">
-                <img src="/assets/img/icon/process-icon-1-2.svg" alt="Fixturbo" />
+                <img src="/assets/img/icon/process-icon-1-2.svg" alt="800speedy" />
               </div>
               <h4 className="process-card-title">On-Site Repair or Replacement</h4>
               <p className="process-card-text">
@@ -55,7 +55,7 @@ const ProcessAreaOne = () => {
           <div className="col-lg-4 process-card-wrap">
             <div className="process-card">
               <div className="process-card-icon">
-                <img src="/assets/img/icon/process-icon-1-3.svg" alt="Fixturbo" />
+                <img src="/assets/img/icon/process-icon-1-3.svg" alt="800speedy" />
               </div>
               <h4 className="process-card-title"> Final Safety Check & Completion</h4>
               <p className="process-card-text">

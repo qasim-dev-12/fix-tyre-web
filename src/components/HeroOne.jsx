@@ -16,7 +16,7 @@ const HeroOne = () => {
               <h1 className="hero-title text-white">
                 Fastest On-Site{" "}
                 <span>
-                  {/* <img src="assets/img/hero/hero_shape_1.png" alt="Fixturbo" /> */}
+                  {/* <img src="assets/img/hero/hero_shape_1.png" alt="800speedy" /> */}
                   Tyre Repair in Dubai— 
                 </span>{" "}
                 Arriving in Just 20–30 Minutes
@@ -37,7 +37,7 @@ Buy brand-new tyres from us at great prices with reliable service every time
           </div>
           <div className="col-xl-6 hero-img">
             <div className="hero-thumb text-center">
-              <img src="assets/img/hero/hero-thumb1-new.png" alt="Fixturbo" />
+              <img src="assets/img/hero/hero-thumb1-new.png" alt="800speedy" />
             </div>
           </div>
         </div>

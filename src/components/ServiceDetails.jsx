@@ -24,7 +24,7 @@ const service = allServices.find(s => s.slug === slug);
               <div className="page-img mb-45">
                 <img
                   src={service?.img1}
-                  alt="Fixturbo"
+                  alt="800speedy"
                 />
               </div>
               <div className="page-content">
@@ -51,7 +51,7 @@ const service = allServices.find(s => s.slug === slug);
                     <div className="page-img">
                       <img
                         src={service?.img2}
-                        alt="Fixturbo"
+                        alt="800speedy"
                       />
                     </div>
                   </div>
@@ -59,7 +59,7 @@ const service = allServices.find(s => s.slug === slug);
                     <div className="page-img">
                       <img
                         src={service?.img3}
-                        alt="Fixturbo"
+                        alt="800speedy"
                       />
                     </div>
                   </div>

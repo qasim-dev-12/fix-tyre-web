@@ -6,7 +6,7 @@ const CTAAreaOne = () => {
   return (
     <div className="cta-area-1">
       <div className="cta1-bg-thumb">
-        <img src={cta} alt="Fixturbo"/>
+        <img src={cta} alt="800speedy"/>
       </div>
       <div className="container">
         <div className="cta-wrap1">

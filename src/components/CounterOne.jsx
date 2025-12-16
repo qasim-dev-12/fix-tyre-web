@@ -32,7 +32,7 @@ const CounterOne = () => {
                       <div className="counter-card_icon">
                         <img
                           src="assets/img/icon/counter-icon_1-1.svg"
-                          alt="Fixturbo"
+                          alt="800speedy"
                         />
                       </div>
                     </div>
@@ -57,7 +57,7 @@ const CounterOne = () => {
                       <div className="counter-card_icon" >
                         <img
                           src="assets/img/icon/counter-icon_1-2.svg"
-                          alt="Fixturbo"
+                          alt="800speedy"
                         />
                       </div>
                     </div>
@@ -83,7 +83,7 @@ const CounterOne = () => {
                       <div className="counter-card_icon">
                         <img
                           src="assets/img/icon/counter-icon_1-3.svg"
-                          alt="Fixturbo"
+                          alt="800speedy"
                         />
                       </div>
                     </div>
@@ -108,7 +108,7 @@ const CounterOne = () => {
                       <div className="counter-card_icon">
                         <img
                           src="assets/img/icon/counter-icon_1-4.svg"
-                          alt="Fixturbo"
+                          alt="800speedy"
                         />
                       </div>
                     </div>
@@ -148,7 +148,7 @@ const CounterOne = () => {
                 </div>
                 <div className="call-media-wrap">
                   <div className="icon">
-                    <img className="text-black" src="assets/img/icon/phone-1.svg" alt="Fixturbo" />
+                    <img className="text-black" src="assets/img/icon/phone-1.svg" alt="800speedy" />
                   </div>
                   <div className="media-body">
                     <h6 className="title text-black">Requesting A Call:</h6>
