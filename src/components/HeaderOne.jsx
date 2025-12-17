@@ -414,41 +414,7 @@ const HeaderOne = () => {
                           Contact
                         </NavLink>
                       </li> */}
-                      <li>
-                        
-                            <div className="flex">
-                              <a
-                                href="https://api.whatsapp.com/send/?phone=971564018282"
-                                className="custom-btn whatsapp-btn wobble-btn"
-                                style={{ padding: "8px 12px",margin:"0px" }}
-                              >
-                                <img
-                                  src={whatsappIcon}
-                                  alt="WhatsApp"
-                                  className="btn-icon"
-                                  style={{ width: "20px", height: "20px" }}
-                                />
-                                <span style={{ color: "#000" }}>WhatsApp</span>
-                              </a>
-                            
-                            
-                            <a
-                                href="tel:+971564018282"
-                                className="custom-btn call-btn wobble-btn"
-                                style={{ padding: "8px 12px" ,margin:"0px"}}
-                              >
-                                <img
-                                  src={call}
-                                  alt="Call Us"
-                                  className="btn-icon"
-                                  style={{ width: "20px", height: "20px" }}
-                                />
-                                <span style={{ color: "#000" }}>Call</span>
-                              </a>  
-                            </div>
-                              
-                           
-                      </li>
+                      
                      
                       
                     </ul>

@@ -11,6 +11,9 @@
   @include xxl {
     left: 42px;
   }
+   @include xs {
+    left: -38px;
+  }
 }
 .about-thumb1 {
   position: relative;

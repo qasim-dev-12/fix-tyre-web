@@ -104,7 +104,7 @@ const AboutOne = () => {
              <div className="button-wrapper-2 mt-30">
       
         <a
-          href="https://api.whatsapp.com/send/?phone=971564018282"
+          href="https://api.whatsapp.com/send/?phone=0543170355"
           className="custom-btn whatsapp-btn wobble-btn"
           style={{ padding: "8px 12px" }}
         >
@@ -118,7 +118,7 @@ const AboutOne = () => {
         </a>
       
         <a
-          href="tel:+971564018282"
+          href="tel:+0543170355"
           className="custom-btn call-btn wobble-btn"
           style={{ padding: "8px 12px" }}
         >

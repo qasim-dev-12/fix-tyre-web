@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../../src/assets/img/logo/logo-white.png";
+import whatsappIcon from "../../src/assets/img/icon/new-500.png";
+import call from "../../src/assets/img/icon/call (1).png";
 
 const SubscribeOne = () => {
   return (
@@ -10,20 +13,45 @@ const SubscribeOne = () => {
       >
         <div className="footer-logo">
           <Link to="/">
-            <img src="assets/img/logo-white.svg" alt="800speedy" />
+            <img src={logo} alt="800speedy" />
           </Link>
         </div>
         <div className="call-media-wrap">
-          <div className="icon">
+          {/* <div className="icon">
             <img src="assets/img/icon/phone-1.svg" alt="800speedy" />
-          </div>
+          </div> */}
           <div className="media-body">
-            <h6 className="title text-white">Requesting A Call:</h6>
-            <h4 className="link">
-              <a className="text-white" href="tel:6295550129">
-                (629) 555-0129
-              </a>
-            </h4>
+             <div className="button-wrapper-2 d-none d-md-inline-block">
+      
+        <a
+          href="https://api.whatsapp.com/send/?phone=0543170355"
+          className="custom-btn whatsapp-btn wobble-btn"
+          style={{ padding: "8px 12px" }}
+        >
+          <img
+            src={whatsappIcon}
+            alt="WhatsApp"
+            className="btn-icon"
+            style={{ width: "20px", height: "20px" }}
+          />
+          <span style={{ color: "#000" }}>WhatsApp Us</span>
+        </a>
+      
+        <a
+          href="tel:+0543170355"
+          className="custom-btn call-btn wobble-btn"
+          style={{ padding: "8px 12px" }}
+        >
+          <img
+            src={call}
+            alt="Call Us"
+            className="btn-icon"
+            style={{ width: "20px", height: "20px" }}
+          />
+          <span style={{ color: "#000" }}>Call Us</span>
+        </a>
+      
+      </div>
           </div>
         </div>
         <div className="social-btn">

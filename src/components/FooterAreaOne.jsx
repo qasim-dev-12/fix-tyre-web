@@ -84,10 +84,10 @@ const FooterAreaOne = () => {
                 <p className="footer-text mb-50">
                  Call us now for quick tyre repair, spare tyre change, puncture fixing, air fill, and new tyre replacement — anywhere in Dubai.
                 </p>
-                <div className="button-wrapper-2">
+                <div className="button-wrapper-2 d-none d-md-inline-block">
       
         <a
-          href="https://api.whatsapp.com/send/?phone=971564018282"
+          href="https://api.whatsapp.com/send/?phone=0543170355"
           className="custom-btn whatsapp-btn wobble-btn"
           style={{ padding: "8px 12px" }}
         >
@@ -101,7 +101,7 @@ const FooterAreaOne = () => {
         </a>
       
         <a
-          href="tel:+971564018282"
+          href="tel:+0543170355"
           className="custom-btn call-btn wobble-btn"
           style={{ padding: "8px 12px" }}
         >
