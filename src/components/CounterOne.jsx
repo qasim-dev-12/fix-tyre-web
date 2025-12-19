@@ -3,8 +3,37 @@ import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
 import bg from  "../assets/img/bg/counter-checklist-bg.png";
 import '../css/header.css';
+// import icon1 from '../../public/assets/img/icon/counter-icon_1-1.svg';
+import icon1 from '../assets/img/icon/quote1-1.svg';
+
+
 
 const CounterOne = () => {
+   function SvgIcon({ src, style }) {
+    const [svg, setSvg] = React.useState("");
+  
+    React.useEffect(() => {
+      fetch(src)
+        .then(res => res.text())
+        .then(data => {
+          // 🔥 Remove hardcoded fills & strokes
+          const cleaned = data
+            .replace(/fill="[^"]*"/g, 'fill="currentColor"')
+            .replace(/stroke="[^"]*"/g, 'stroke="currentColor"')
+            .replace(/style="[^"]*"/g, "");
+  
+          setSvg(cleaned);
+        });
+    }, [src]);
+  
+    return (
+      <span
+        
+        style={style}
+        dangerouslySetInnerHTML={{ __html: svg }}
+      />
+    );
+  }
   return (
     <div className="counter-area-1 space-bottom">
       <div className="container">
@@ -30,11 +59,14 @@ const CounterOne = () => {
                         </h2>
                         <p className="counter-card_text">Happy Customers</p>
                       </div>
-                      <div className="counter-card_icon">
-                        <img
+                      <div className="counter-card_icon text-gold">
+                        {/* <img
                           src="assets/img/icon/counter-icon_1-1.svg"
                           alt="800speedy"
-                        />
+                        /> */}
+                       <SvgIcon  src={icon1}  style={{ color: "#000",innerWidth:"20px" }}  />
+
+
                       </div>
                     </div>
                   </div>
@@ -56,10 +88,12 @@ const CounterOne = () => {
                         <p className="counter-card_text">Rated Tyre Services</p>
                       </div>
                       <div className="counter-card_icon" >
-                        <img
+                        {/* <img
                           src="assets/img/icon/counter-icon_1-2.svg"
                           alt="800speedy"
-                        />
+                        /> */}
+                        {/* <CounterIcon1 className="text-gold" /> */}
+
                       </div>
                     </div>
                   </div>
@@ -82,10 +116,8 @@ const CounterOne = () => {
 </p>
                       </div>
                       <div className="counter-card_icon">
-                        <img
-                          src="assets/img/icon/counter-icon_1-3.svg"
-                          alt="800speedy"
-                        />
+                   <SvgIcon  src={icon1}  style={{ color: "#000",innerWidth:"20px" }}  />
+
                       </div>
                     </div>
                   </div>
@@ -107,10 +139,7 @@ const CounterOne = () => {
                         <p className="counter-card_text">Arrival Time</p>
                       </div>
                       <div className="counter-card_icon">
-                        <img
-                          src="assets/img/icon/counter-icon_1-4.svg"
-                          alt="800speedy"
-                        />
+                      <SvgIcon  src={icon1}  style={{ color: "#000",innerWidth:"20px" }}  />
                       </div>
                     </div>
                   </div>

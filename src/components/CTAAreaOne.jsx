@@ -13,8 +13,8 @@ const CTAAreaOne = () => {
           <div className="row justify-content-md-between align-items-center">
             <div className="col-lg-6 col-md-8">
               <div className="title-area mb-md-0">
-                <span className="sub-title style2 text-white">Contact us</span>
-                <h2 className="sec-title text-white mb-0">
+                <span className="sub-title style2 text-gold">Contact us</span>
+                <h2 className="sec-title text-gold mb-0">
                   When Tyres Fail,  We Arrive in 20 Minutes
                 </h2>
               </div>

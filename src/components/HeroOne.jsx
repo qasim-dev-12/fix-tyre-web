@@ -12,8 +12,8 @@ const HeroOne = () => {
         <div className="row flex-row-reverse hero-row">
           <div className="col-xl-6">
             <div className="hero-style1">
-              <span className="sub-title text-white">We are 800SPEEDY</span>
-              <h1 className="hero-title text-white">
+              <span className="sub-title text-gold">We are 800SPEEDY</span>
+              <h1 className="hero-title text-gold">
                 Fastest On-Site{" "}
                 <span>
                   {/* <img src="assets/img/hero/hero_shape_1.png" alt="800speedy" /> */}
@@ -21,7 +21,7 @@ const HeroOne = () => {
                 </span>{" "}
                 Arriving in Just 20–30 Minutes
               </h1>
-              <p className="hero-text text-white">
+              <p className="hero-text text-gold">
               We offer fast spare tyre changes, puncture fixes, and flat tyre repairs.
 Buy brand-new tyres from us at great prices with reliable service every time
               </p>
