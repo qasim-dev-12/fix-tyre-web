@@ -52,7 +52,7 @@ const ServiceAreaOne = () => {
               <div className="service-card">
                 <div className="service-card_content">
                   <div className="service-card_icon">
-                  <SvgIcon src={s.icon }  style={{ color: "#fff",innerWidth:"20px" }}  />
+                  <SvgIcon src={s.icon }   style={{ color: " #D3AF37",innerWidth:"20px" }}  />
                   </div>
 
                   <h4 className="service-card_title h5">

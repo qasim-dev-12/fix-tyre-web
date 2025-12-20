@@ -17,7 +17,7 @@ const services = [
     h4:"Safe, long-lasting repairs using certified tools and materials",    
 
     short: "We fix punctures, leaks, and tyre damage on the spot using professional tools—fast, safe, and reliable.",
-    image: "/assets/img/service/repair-tyre-1.png",
+    image: "/assets/img/service/Tyre Repair.png",
     icon: "/assets/img/icon/marquee-icon-1-2.svg",
     img1:"/assets/img/service/repair-tyre-1.png",
     img2:"/assets/img/service/repair-tyre-2.png",

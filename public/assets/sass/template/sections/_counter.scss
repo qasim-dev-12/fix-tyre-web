@@ -72,8 +72,8 @@
     }
     &_icon {
         border-radius: 50px;
-        width: 80px;
-        height: 80px;
+        width: 80px !important;
+        height: 80px !important;
         line-height: 80px;
         background-color: $theme-color;
         text-align: center;
@@ -106,10 +106,11 @@
         font-size: 44px;
     }
     .counter-card_icon {
-        width: 70px;
-        height: 70px;
+        width: 100px;
+        height: 100px;
         line-height: 70px;
     }
+   
     .counter-card-wrap .counter-card {
         min-width: 214px;
     }

@@ -13,7 +13,7 @@ const HeroOne = () => {
           <div className="col-xl-6">
             <div className="hero-style1">
               <span className="sub-title text-gold">We are 800SPEEDY</span>
-              <h1 className="hero-title text-gold">
+              <h1 className="hero-title text-white">
                 Fastest On-Site{" "}
                 <span>
                   {/* <img src="assets/img/hero/hero_shape_1.png" alt="800speedy" /> */}
@@ -37,7 +37,7 @@ Buy brand-new tyres from us at great prices with reliable service every time
           </div>
           <div className="col-xl-6 hero-img">
             <div className="hero-thumb text-center">
-              <img src="assets/img/hero/hero-thumb1-new.png" alt="800speedy" />
+              <img src="assets/img/hero/hero-thumb-1-new.png" alt="800speedy" />
             </div>
           </div>
         </div>

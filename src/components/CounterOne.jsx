@@ -4,7 +4,17 @@ import CountUp from "react-countup";
 import bg from  "../assets/img/bg/counter-checklist-bg.png";
 import '../css/header.css';
 // import icon1 from '../../public/assets/img/icon/counter-icon_1-1.svg';
-import icon1 from '../assets/img/icon/quote1-1.svg';
+import icon1 from '../assets/img/icon/counter-icon_1-1 (2).svg';
+import icon2 from '../assets/img/icon/counter-icon_1-2 (2).svg';
+import icon3 from '../assets/img/icon/counter-icon_1-3 (2).svg';
+import icon4 from '../assets/img/icon/counter-icon_1-4 (2).svg';
+import { ReactComponent as Logo } from '../assets/img/icon/counter-icon_1-1 (2).svg';
+import { ReactComponent as Logo1 } from '../assets/img/icon/counter-icon_1-2 (2).svg';
+import { ReactComponent as Logo2 } from '../assets/img/icon/counter-icon_1-3 (2).svg';
+import { ReactComponent as Logo3 } from '../assets/img/icon/counter-icon_1-4 (2).svg';
+
+// import icon3 from '../assets/img/icon/counter-icon_1-3 (1).svg';
+ 
 
 
 
@@ -59,12 +69,12 @@ const CounterOne = () => {
                         </h2>
                         <p className="counter-card_text">Happy Customers</p>
                       </div>
-                      <div className="counter-card_icon text-gold">
+                      <div className="counter-card_icon text-white">
                         {/* <img
                           src="assets/img/icon/counter-icon_1-1.svg"
                           alt="800speedy"
                         /> */}
-                       <SvgIcon  src={icon1}  style={{ color: "#000",innerWidth:"20px" }}  />
+                       <Logo style={{ color: "#e10600" }}   className="icon svg-icon" width={50} height={80}   />
 
 
                       </div>
@@ -92,7 +102,7 @@ const CounterOne = () => {
                           src="assets/img/icon/counter-icon_1-2.svg"
                           alt="800speedy"
                         /> */}
-                        {/* <CounterIcon1 className="text-gold" /> */}
+                      <Logo1 fill="red"  className="icon svg-icon" width={50} height={80}   />
 
                       </div>
                     </div>
@@ -116,7 +126,7 @@ const CounterOne = () => {
 </p>
                       </div>
                       <div className="counter-card_icon">
-                   <SvgIcon  src={icon1}  style={{ color: "#000",innerWidth:"20px" }}  />
+                  <Logo2 fill="red"  className="icon svg-icon" width={50} height={80}   />
 
                       </div>
                     </div>
@@ -139,7 +149,10 @@ const CounterOne = () => {
                         <p className="counter-card_text">Arrival Time</p>
                       </div>
                       <div className="counter-card_icon">
-                      <SvgIcon  src={icon1}  style={{ color: "#000",innerWidth:"20px" }}  />
+                        <div >
+                             <Logo3 fill="red"  className="icon svg-icon"  width={50} height={80}   />
+                        </div>
+                     
                       </div>
                     </div>
                   </div>
