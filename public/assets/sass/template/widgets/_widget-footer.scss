@@ -10,7 +10,7 @@
     }
     .wp-block-search__label,
     .widget_title {
-        color: $white-color;
+        color: $gold-color;
         border-bottom: none;
         margin: -0.04em 0 45px 0;
         position: relative;
@@ -35,7 +35,7 @@
             margin-bottom: 30px;
             padding: 0;
             font-family: $title-font;
-            color: $body-color;
+            color: $gold-color;
             display: block;
             max-width: 100%;
             width: max-content;
@@ -44,7 +44,7 @@
             position: relative;
             &:hover {
                 background-color: transparent;
-                color: $theme-color;
+                color: $white-color;
             }
         }
 
@@ -83,7 +83,7 @@
         a {
             color: $body-color;
             &:hover {
-                color: $theme-color;
+                color: #ffffff;
             }
         }
     }

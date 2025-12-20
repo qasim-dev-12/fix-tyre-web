@@ -8,10 +8,12 @@ import img from "../../src/assets/img/bg/footer-bg1-1.png";
 const FooterAreaOne = () => {
   return (
     <footer
-      className="footer-wrapper footer-layout1"
-      style={{ backgroundImage: `url(${img})` ,backgroundRepeat:"no-repeat",backgroundSize:"contain",}}
+      className="footer-wrapper footer-layout1 text-gold"
+      // style={{ backgroundImage: `url(${img})` ,backgroundRepeat:"no-repeat",backgroundSize:"contain", backgroundColor:"#0B3D2E"}}
+      style={{  backgroundColor:"#0B3D2E"}}
     >
-      <div className="container">
+      <div className="container" style={{backgroundColor:"#0B3D2E"
+}}>
         <div className="widget-area">
           <div className="row justify-content-between">
             <div className="col-md-6 col-6  col-xl-auto">

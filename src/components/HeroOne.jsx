@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../css/header.css";
 
 const HeroOne = () => {
   return (
@@ -21,7 +22,7 @@ const HeroOne = () => {
                 </span>{" "}
                 Arriving in Just 20–30 Minutes
               </h1>
-              <p className="hero-text text-gold">
+              <p className="hero-text text-gold hero-para">
               We offer fast spare tyre changes, puncture fixes, and flat tyre repairs.
 Buy brand-new tyres from us at great prices with reliable service every time
               </p>

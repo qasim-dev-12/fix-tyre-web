@@ -1,6 +1,6 @@
 /*Footer 1***************/
 .footer-wrapper {
-    background-color: $title-color;
+    background-color: $theme-color;
 }
 .footer-top-1 {
     display: flex;
@@ -26,22 +26,24 @@
 } 
 .widget-area {
     padding: 80px 0 30px;
+    
 }
 .copyright-wrap {
     padding: 28px 0;
     background: transparent;
     border-top: 1px solid #232323;
+    color: $gold-color;
 }
 .copyright-text {
     margin: 0;
-    color: $white-color;
+    color: $gold-color;
     font-weight: 400;
     font-size: 18px;
     font-family: $title-font;
     a {
-        color: $white-color;
+        color: $gold-color;
         &:hover {
-            color: $theme-color;
+            color: #fff;
         }
     }
 }
@@ -54,9 +56,9 @@
         font-size: 18px;
         font-weight: 400;
         font-family: $title-font;
-        color: $white-color;
+        color: $gold-color;
         &:hover {
-            color: $theme-color;
+            color: $white-color;
         }
     }
 }
@@ -65,7 +67,7 @@
     position: relative;
     padding-top: 115px;
     .footer-widget {
-        --body-color: #ffffff;
+        --body-color: #D3AF37;
     }
     .newsletter-form .form-group input {
         color: $white-color;
