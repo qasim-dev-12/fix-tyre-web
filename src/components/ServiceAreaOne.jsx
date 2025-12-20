@@ -67,7 +67,7 @@ const ServiceAreaOne = () => {
                 </div>
 
                 <div className="service-card_img">
-                  <img src={s.image} alt={s.title} />
+                  <img src={s?.image} alt={s.title} />
                 </div>
               </div>
             </div>

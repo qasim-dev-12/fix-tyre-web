@@ -1,6 +1,24 @@
 // src/data/services.js
 // Edit titles, slugs, descriptions, image paths as needed.
 // Use url-friendly slugs (lowercase, hyphens).
+// Tyre Repair
+import tyreRepair from "../assets/img/service/Tyre Repair.png";
+
+// Buy New Tyre
+import buyNewTyre from "../assets/img/service/Buy New Tyre.png";
+
+// Tyre Replacement
+import tyreReplacement from "../assets/img/service/Tyre Replacement.png";
+
+// Air Fill
+import airFill from "../assets/img/service/Air Fill.png";
+
+// Spare Tyre Change
+import spareTyreChange from "../assets/img/service/Spare-Tyre-Change.png";
+
+// Fix Puncture Tyre
+import fixPunctureTyre from "../assets/img/service/Fix Puncture Tyre.png";
+
 
 const services = [
   {
@@ -17,7 +35,7 @@ const services = [
     h4:"Safe, long-lasting repairs using certified tools and materials",    
 
     short: "We fix punctures, leaks, and tyre damage on the spot using professional tools—fast, safe, and reliable.",
-    image: "/assets/img/service/Tyre Repair.png",
+    image: tyreRepair,
     icon: "/assets/img/icon/marquee-icon-1-2.svg",
     img1:"/assets/img/service/repair-tyre-1.png",
     img2:"/assets/img/service/repair-tyre-2.png",
@@ -37,7 +55,7 @@ const services = [
     slug: "buy-new-tyre",
     title: "Buy New Tyre",
     short: "Choose from premium tyres for all car models with expert installation at your home or roadside.",
-    image: "/assets/img/service/Buy New Tyre.png",
+    image: buyNewTyre,
        icon: "/assets/img/icon/marquee-icon-1-2.svg",
     img1:"/assets/img/service/big-new-tyre.png",
     img2:"/assets/img/service/side new tyre.png",
@@ -56,7 +74,7 @@ const services = [
     h3:"Suitable for roadside emergencies, home, or workplace service",
     h4:"Wide range of tyre brands available for all car types", 
     short: "Complete tyre change service with balancing and safety checks—done quickly at your location.",
-    image: "/assets/img/service/Tyre Replacement.png",
+    image: tyreReplacement,
        icon: "/assets/img/icon/marquee-icon-1-2.svg",
      img1:"/assets/img/service/tyre-rep-big.png",
     img2:"/assets/img/service/tyre-rep-side-1.png",
@@ -75,7 +93,7 @@ const services = [
     h3:"Helps improve fuel efficiency, tyre life, and driving safety",
     h4:"Quick 20–30 minute arrival anywhere in Dubai", 
     short: "We check and fill your tyre pressure (air or nitrogen) to ensure smooth driving and fuel efficiency.",
-    image: "/assets/img/service/Air Fill.png",
+    image: airFill,
     icon: "/assets/img/icon/marquee-icon-1-2.svg",
      img1:"/assets/img/service/BIG IMAGE-AIR FILL.png",
     img2:"/assets/img/service/SIDE IMAGE-AIR-FILL1.png",
@@ -94,7 +112,7 @@ const services = [
     h3:"Ideal for emergencies and unexpected flat tyres",
     h4:"Fast arrival anywhere in Dubai within 20–30 minutes", 
     short: "Stranded with a flat tyre? Our team will replace it with your spare tyre \nin minutes.",
-    image: "/assets/img/service/Spare Tyre Change.png",
+    image: spareTyreChange,
         icon: "/assets/img/icon/marquee-icon-1-2.svg",
       img1:"/assets/img/service/big-spare-tyre.png",
     img2:"/assets/img/service/side-spare-tyre.png",
@@ -113,7 +131,7 @@ const services = [
     h3:" Done at your home, office, parking, or roadside",
     h4:"Fast arrival anywhere in Dubai within 20–30 minutes", 
     short: "Quick puncture repair using premium plugs and sealing techniques to get you back on the road safely.",
-    image: "/assets/img/service/Fix Puncture Tyre.png",
+    image: fixPunctureTyre,
        icon: "/assets/img/icon/marquee-icon-1-2.svg",
      img1:"/assets/img/service/fix-puncture-big.png",
     img2:"/assets/img/service/fix-puncture-1.png",
