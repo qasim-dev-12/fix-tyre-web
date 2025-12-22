@@ -9,10 +9,10 @@ const AboutTwo = () => {
           <div className="col-xxl-7 col-xl-6">
             <div className="about-thumb2 mb-40 mb-xl-0">
               <div className="about-img-1">
-                <img src="assets/img/normal/about_2-1.png" alt="800speedy" />
+                <img src="/assets/img/normal/about_2-1.png" alt="800speedy" />
               </div>
               <div className="about-img-2">
-                <img src="assets/img/normal/about_2-2.png" alt="800speedy" />
+                <img src="/assets/img/normal/about_2-2.png" alt="800speedy" />
               </div>
               <div className="about-counter-wrap jump-reverse">
                 <img src="assets/img/icon/about_icon2-1.svg" alt="800speedy" />
@@ -48,7 +48,7 @@ const AboutTwo = () => {
               <div className="title-area mb-30">
                 <span className="sub-title">Know About Us</span>
                 <h2 className="sec-title">
-                  Non Leo Libero Amet The Maecenas Gravida{" "}
+                 Your Trusted Mobile Tyre Experts in Dubai
                   <img
                     className="title-bg-shape shape-center"
                     src="assets/img/bg/title-bg-shape.png"
@@ -56,10 +56,7 @@ const AboutTwo = () => {
                   />
                 </h2>
                 <p className="sec-text">
-                  A car repair is a service provided to fix any issues or
-                  damages with a your vehicle. It involves diagnosing the
-                  problem, repairing or replacing the necessary parts, and
-                  ensuring that the car
+                800SPEEDY provides fast, reliable, and professional on-site tyre services anywhere in Dubai. Whether it’s a puncture, tyre replacement, air fill, or spare tyre change, our trained technicians arrive fully equipped to get you back on the road quickly—without towing or delays.
                 </p>
               </div>
               <div className="about-feature-wrap style-shadow">
@@ -68,11 +65,11 @@ const AboutTwo = () => {
                 </div>
                 <div className="about-feature-wrap-details">
                   <h5 className="about-feature-title">
-                    Elite Automotive Service
+                 Elite Automotive Service
                   </h5>
                   <p className="about-feature-text">
-                    Et purus duis sollicitudin dignissim habitant. Egestas nulla
-                    quis venenatis cras sed{" "}
+                   Our certified technicians use professional-grade tools and proven processes to ensure every job meets high safety and quality standards—right at your location.
+
                   </p>
                 </div>
               </div>
@@ -81,10 +78,9 @@ const AboutTwo = () => {
                   <img src="assets/img/icon/about_icon2-4.svg" alt="800speedy" />
                 </div>
                 <div className="about-feature-wrap-details">
-                  <h5 className="about-feature-title">Pro Drive Garage</h5>
+                  <h5 className="about-feature-title">Pro Drive Garage Experience</h5>
                   <p className="about-feature-text">
-                    Et purus duis sollicitudin dignissim habitant. Egestas nulla
-                    quis venenatis cras sed{" "}
+                 From emergency roadside support to scheduled tyre services, we combine speed, skill, and customer care to deliver a hassle-free experience you can trust every time.
                   </p>
                 </div>
               </div>

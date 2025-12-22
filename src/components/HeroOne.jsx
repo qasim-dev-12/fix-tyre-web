@@ -22,10 +22,29 @@ const HeroOne = () => {
                 </span>{" "}
                 Arriving in Just 20–30 Minutes
               </h1>
-              <p className="hero-text text-gold hero-para">
-              We offer fast spare tyre changes, puncture fixes, and flat tyre repairs.
-Buy brand-new tyres from us at great prices with reliable service every time
-              </p>
+         <ul className="hero-points hero-text text-gold hero-para">
+  <li>
+    <span className="icon">🚗</span>
+    Fast spare tyre changes
+  </li>
+  <li>
+    <span className="icon">🛠️</span>
+    Quick puncture fixes
+  </li>
+  <li>
+    <span className="icon">⚡</span>
+    Reliable flat tyre repairs
+  </li>
+  <li>
+    <span className="icon">🛞</span>
+    Brand-new tyres at great prices
+  </li>
+  <li>
+    <span className="icon">⭐</span>
+    Trusted service every time
+  </li>
+</ul>
+
               {/* <div className="btn-group">
                 <Link to="/about" className="btn">
                   Learn About Us
