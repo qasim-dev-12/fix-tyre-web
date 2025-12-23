@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
 import bg from "../assets/img/bg/testimonial-bg1-1.png";
 import testi1 from "../assets/img/testimonial/testimonial-1-1.png";
-import img from "../assets/img/icon/dialog (1).png";
+import img from "../assets/img/icon/quote2-1.svg";
 import man from "../../src/assets/img/testimonial/testimonial-1-1.png";
 // import { ReactComponent as SvgIcon } from "../assets/img/icon/quote.png";
 const TestimonialOne = () => {
@@ -113,8 +113,9 @@ const TestimonialOne = () => {
                             </div>
                             <div className="quote-icon">
                               <img
-                                src="assets/img/icon/quote1-1.svg"
+                                src={img}
                                 alt="800speedy"
+                                style={{width:"60px"}} 
                               />
                             </div>
                           </div>
@@ -147,8 +148,9 @@ const TestimonialOne = () => {
                             </div>
                             <div className="quote-icon">
                               <img
-                                src="assets/img/icon/quote1-1.svg"
+                                src={img}
                                 alt="800speedy"
+                                style={{width:"60px"}} 
                               />
                             </div>
                           </div>
@@ -182,13 +184,19 @@ const TestimonialOne = () => {
                             </div>
                             <div className="quote-icon">
                               <img
-                                src="assets/img/icon/quote1-1.svg"
+                                src={img}
                                 alt="800speedy"
+                                style={{width:"60px"}} 
                               />
                             </div>
                           </div>
                           <p className="testi-card_text">
-                       I’ve used 800 SPEEDY twice now for tyre change and wheel balancing. The technicians are skilled, punctual, and explain everything clearly. Quality service and super convenient.
+                     <p className="testi-card_text">
+  I’ve used 800 SPEEDY twice now for tyre change and wheel balancing. The technicians are skilled, punctual, and explain everything clearly.
+  <br />
+ 
+  Quality service and super convenient.
+</p>
                           </p>
                           <div className="rating">
                             <i className="fas fa-star" />
@@ -216,8 +224,9 @@ const TestimonialOne = () => {
                             </div>
                             <div className="quote-icon">
                               <img
-                                src="assets/img/icon/quote1-1.svg"
+                                src={img}
                                 alt="800speedy"
+                                style={{width:"60px"}} 
                               />
                             </div>
                           </div>

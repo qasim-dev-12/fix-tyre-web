@@ -46,9 +46,9 @@ const FooterAreaTwo = () => {
                   <Link to="https://linkedin.com/" tabIndex={-1}>
                     <i className="fab fa-linkedin-in" />
                   </Link>
-                  <Link to="https://twitter.com/" tabIndex={-1}>
+                  {/* <Link to="https://twitter.com/" tabIndex={-1}>
                     <i className="fab fa-twitter" />
-                  </Link>
+                  </Link> */}
                   <Link to="https://facebook.com/" tabIndex={-1}>
                     <i className="fab fa-facebook-f" />
                   </Link>

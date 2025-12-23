@@ -22,12 +22,14 @@ import HomePageThree from "./pages/HomePageThree";
 import HomePageFour from "./pages/HomePageFour";
 import HomePageFive from "./pages/HomePageFive";
 import HomePageSix from "./pages/HomePageSix";
+import TermsandConditions from "./pages/TermsandConditions";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 function App() {
   return (
     <BrowserRouter>
       <RouteScrollToTop />
-      <ScrollToTop smooth color="#372d2fff" />
+      <ScrollToTop smooth color="#D3AF37" />
       <Routes>
         <Route exact path="/" element={<HomePageOne />} />
         <Route exact path="/home-2" element={<HomePageTwo />} />
@@ -51,6 +53,9 @@ function App() {
         <Route exact path="/checkout" element={<CheckoutPage />} />
         <Route exact path="/wishlist" element={<WishlistPage />} />
         <Route exact path="/contact" element={<ContactPage />} />
+        <Route path="/terms-and-conditions" element={<TermsandConditions />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+
       </Routes>
     </BrowserRouter>
   );

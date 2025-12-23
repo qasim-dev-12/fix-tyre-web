@@ -42,7 +42,7 @@ const AboutPage = () => {
       <TestimonialOne />
 
       {/* Team Area Two */}
-      <TeamAreaTwo />
+      {/* <TeamAreaTwo /> */}
 
       {/* Subscribe One */}
       <SubscribeOne />

@@ -25,14 +25,17 @@ const FooterAreaOne = () => {
                       <Link to="/about">About</Link>
                     </li>
                     <li>
-                      <Link to="/team">Team</Link>
+                      {/* <Link to="/team">Terms and conditions</Link> */}
+                      <Link to="/terms-and-conditions">Terms & Conditions</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to="/contact">Faq</Link>
-                    </li>
-                    <li>
+                    </li> */}
+                    <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+                    {/* <li>
                       <Link to="/contact">Privacy Policy</Link>
-                    </li>
+                    </li> */}
+                    
                   </ul>
                 </div>
               </div>
@@ -54,12 +57,7 @@ const FooterAreaOne = () => {
                     <li>
                       <Link to="/service/air-fill">Air Fill</Link>
                     </li>
-                    <li>
-                      <Link to="/service/spare-tyre-change">Spare Tyre Change</Link>
-                    </li>
-                    <li>
-                      <Link to="/service/fix-puncture-tyre">Fix Puncture</Link>
-                    </li>
+                   
                   </ul>
                 </div>
               </div>
@@ -84,7 +82,7 @@ const FooterAreaOne = () => {
               <div className="widget footer-widget widget-newsletter">
                 <h3 className="widget_title">Get In Touch</h3>
                 <p className="footer-text mb-50">
-                 Call us now for quick tyre repair, spare tyre change, puncture fixing, air fill, and new tyre replacement — anywhere in Dubai.
+               Call now for fast on-site tyre service anywhere in Dubai.
                 </p>
                 <div className="button-wrapper-2 d-none d-md-inline-block">
       

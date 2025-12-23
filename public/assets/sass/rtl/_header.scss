@@ -26,6 +26,11 @@
             right: -20px;
             left: 0;
         }
+        &:hover {
+            li a {
+                color: $gold-color;
+            }
+        }
     }
     .header-navbar-logo {
         padding-right: 60px;

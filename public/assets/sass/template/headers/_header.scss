@@ -464,7 +464,7 @@
     font-family: $title-font;
   }
   a:hover {
-    color: $theme-color;
+    color: $gold-color
   }
   b,
   strong {
@@ -523,7 +523,7 @@
     }
   }
   .header-top {
-    background: transparent;
+    background: $theme-color;
     padding: 12px 0;
   }
   .social-links {
