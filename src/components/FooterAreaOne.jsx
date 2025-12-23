@@ -5,6 +5,7 @@ import whatsappIcon from "../../src/assets/img/icon/new-500.png";
 import call from "../../src/assets/img/icon/call (1).png";
 import img from "../../src/assets/img/bg/footer-bg1-1.png";
 
+
 const FooterAreaOne = () => {
   return (
     <footer
@@ -32,6 +33,7 @@ const FooterAreaOne = () => {
                       <Link to="/contact">Faq</Link>
                     </li> */}
                     <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+                     <li><Link to="/faq">Faq</Link></li>
                     {/* <li>
                       <Link to="/contact">Privacy Policy</Link>
                     </li> */}

@@ -24,6 +24,7 @@ import HomePageFive from "./pages/HomePageFive";
 import HomePageSix from "./pages/HomePageSix";
 import TermsandConditions from "./pages/TermsandConditions";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Faq from "./pages/Faq";
 
 function App() {
   return (
@@ -55,6 +56,7 @@ function App() {
         <Route exact path="/contact" element={<ContactPage />} />
         <Route path="/terms-and-conditions" element={<TermsandConditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/faq" element={<Faq />} />
 
       </Routes>
     </BrowserRouter>
