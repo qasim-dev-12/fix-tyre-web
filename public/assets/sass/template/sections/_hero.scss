@@ -54,22 +54,25 @@
     }
   }
 }
-@media (max-width: 426px) {
+@media (max-width: 475px) {
   .hero-title {
-    font-size: 28px;
-    line-height: 25px;
+    font-size: 28px !important;
     line-height: 1.1;
   }
+
   .hero-1 {
     padding: 140px 20px 136px;
   }
-  .sub-title{
+
+  .sub-title {
     margin-bottom: 10px;
   }
+
   .hero-text {
     font-size: 18px;
   }
 }
+
 
 /* Hero 2 ---------------------------------- */
 .hero-2 {
