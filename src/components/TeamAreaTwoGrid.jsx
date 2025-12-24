@@ -140,7 +140,7 @@ const TeamAreaTwoGrid = () => {
                     <Link to="https://www.instagram.com/">
                       <i className="fab fa-instagram" />
                     </Link>
-                    <Link to="https://facebook.com/">
+                    <Link to="https://www.facebook.com/800speedy/">
                       <i className="fab fa-facebook-f" />
                     </Link>
                     <Link to="https://twitter.com/">

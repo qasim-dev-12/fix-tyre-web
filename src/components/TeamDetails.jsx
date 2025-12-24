@@ -111,7 +111,7 @@ const TeamDetails = () => {
                   </p>
                 </div>
                 <div className="social-btn style4 mt-35">
-                  <a href="https://facebook.com/">
+                  <a href="https://www.facebook.com/800speedy">
                     <i className="fab fa-facebook-f" />
                   </a>
                   <a href="https://twitter.com/">

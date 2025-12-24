@@ -39,10 +39,14 @@ const HeroOne = () => {
     <span className="icon">🛞</span>
     Brand-new tyres at great prices
   </li>
-  <li>
+  {/* <li>
     <span className="icon">⭐</span>
     Trusted service every time
-  </li>
+  </li> */}
+  <li>
+  <span className="icon">💳</span>
+  Pay by card or pay by link
+</li>
 </ul>
 
               {/* <div className="btn-group">

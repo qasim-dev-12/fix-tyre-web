@@ -81,10 +81,10 @@ const HeaderOne = () => {
                   <ul>
                     <li>
                       <div className="social-links">
-                        <Link to="https://www.facebook.com/">
+                        <Link to="https://www.facebook.com/800speedy">
                           <i className="fab fa-facebook-f" />
                         </Link>
-                        <Link to="https://www.instagram.com/">
+                        <Link to="https://www.instagram.com/800speedy">
                           <i className="fab fa-instagram" />
                         </Link>
                         {/* <Link to="https://www.twitter.com/">
