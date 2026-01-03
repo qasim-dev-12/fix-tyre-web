@@ -4,7 +4,7 @@ import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
 import bg from "../assets/img/bg/testimonial-bg1-1.png";
 import testi1 from "../assets/img/testimonial/testimonial-1-1.png";
 import img from "../assets/img/icon/quote2-1.svg";
-import man from "../../src/assets/img/testimonial/testimonial-1-1.png";
+import man from "../../src/assets/img/testimonial/testi-5.png";
 // import { ReactComponent as SvgIcon } from "../assets/img/icon/quote.png";
 const TestimonialOne = () => {
   return (
