@@ -118,7 +118,7 @@ const AboutOne = () => {
         </a>
       
         <a
-          href="tel:+0521419334"
+          href="tel:0521419334"
           className="custom-btn call-btn wobble-btn"
           style={{ padding: "8px 12px" }}
         >
