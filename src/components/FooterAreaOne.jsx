@@ -145,8 +145,8 @@ const FooterAreaOne = () => {
             </div>
             <div className="col-auto">
               <div className="footer-links">
-                <Link to="/contact">Tarms &amp; Condition</Link>
-                <Link to="/contact">Privacy Policy</Link>
+                <Link to="/terms-and-conditions">Tarmssss &amp; Condition</Link>
+                <Link to="/privacy-policy">Privacy Policy</Link>
                 <Link to="/contact">Contact Us</Link>
               </div>
             </div>
