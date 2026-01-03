@@ -146,7 +146,7 @@ const FooterAreaOne = () => {
           <div className="row gy-3 justify-content-md-between justify-content-center">
             <div className="col-auto align-self-center">
               <p className="copyright-text text-center">
-                © <Link to="#">800speedy</Link> 2026 | All Rights Reserved
+                <Link to="https://staytop.ae/"> © 800speedy 2026 | All Rights Reserved</Link>
               </p>
             </div>
             <div className="col-auto">

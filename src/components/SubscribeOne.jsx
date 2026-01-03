@@ -55,13 +55,13 @@ const SubscribeOne = () => {
           </div>
         </div>
         <div className="social-btn">
-          <a href="https://facebook.com/">
+          <a href="https://www.facebook.com/800speedy">
             <i className="fab fa-facebook-f" />
           </a>
           {/* <a href="https://twitter.com/">
             <i className="fab fa-twitter" />
           </a> */}
-          <a href="https://instagram.com/">
+          <a href="https://www.instagram.com/800speedy">
             <i className="fab fa-instagram" />
           </a>
         </div>

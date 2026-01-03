@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import HeaderOne from "../components/HeaderOne";
 import FooterAreaOne from "../components/FooterAreaOne";
 import "../css/gobal.css";
 import Breadcrumb from "../components/Breadcrumb";
+// import { useState,useEffect } from "react";
+import Preloader from "../helper/Preloader";
 
 const faqData = [
   {
@@ -43,9 +45,16 @@ const Faq = () => {
   const toggleFaq = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
+   let [active, setActive] = useState(true);
+      useEffect(() => {
+        setTimeout(function () {
+          setActive(false);
+        }, 2000);
+      }, []);
 
   return (
     <>
+      {active === true && <Preloader />}
       {/* Header */}
       <HeaderOne />
       <Breadcrumb title={"faq"}/>

@@ -49,11 +49,11 @@ const AboutTwo = () => {
                 <span className="sub-title">Know About Us</span>
                 <h2 className="sec-title">
                  Your Trusted Mobile Tyre Experts in Dubai
-                  <img
+                  {/* <img
                     className="title-bg-shape shape-center"
                     src="assets/img/bg/title-bg-shape.png"
                     alt="800speedy"
-                  />
+                  /> */}
                 </h2>
                 <p className="sec-text">
                 800SPEEDY provides fast, reliable, and professional on-site tyre services anywhere in Dubai. Whether it’s a puncture, tyre replacement, air fill, or spare tyre change, our trained technicians arrive fully equipped to get you back on the road quickly—without towing or delays.
@@ -61,7 +61,9 @@ const AboutTwo = () => {
               </div>
               <div className="about-feature-wrap style-shadow">
                 <div className="icon">
-                  <img src="assets/img/icon/about_icon2-3.svg" alt="800speedy" />
+                  <img src="assets/img/icon/about_icon2-3.svg" alt="800speedy"  style={{
+    filter: "brightness(0)",
+  }} />
                 </div>
                 <div className="about-feature-wrap-details">
                   <h5 className="about-feature-title">
@@ -75,7 +77,9 @@ const AboutTwo = () => {
               </div>
               <div className="about-feature-wrap style-shadow">
                 <div className="icon">
-                  <img src="assets/img/icon/about_icon2-4.svg" alt="800speedy" />
+                  <img src="assets/img/icon/about_icon2-4.svg" alt="800speedy" style={{
+    filter: "brightness(0)",
+  }} />
                 </div>
                 <div className="about-feature-wrap-details">
                   <h5 className="about-feature-title">Pro Drive Garage Experience</h5>
