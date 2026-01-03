@@ -24,7 +24,7 @@ const SubscribeOne = () => {
              <div className="button-wrapper-2 d-none d-md-inline-block">
       
         <a
-          href="https://api.whatsapp.com/send/?phone=0543170355"
+          href="https://api.whatsapp.com/send/?phone=0521419334"
           className="custom-btn whatsapp-btn wobble-btn"
           style={{ padding: "8px 12px" }}
         >
@@ -38,7 +38,7 @@ const SubscribeOne = () => {
         </a>
       
         <a
-          href="tel:+0543170355"
+          href="tel:+0521419334"
           className="custom-btn call-btn wobble-btn"
           style={{ padding: "8px 12px" }}
         >

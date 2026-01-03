@@ -69,7 +69,7 @@ const FooterAreaOne = () => {
                 <h3 className="widget_title">Contact</h3>
                 <div className="widget-contact">
                   <p>
-                    <Link to="tel:0543170355">0543170355</Link>
+                    <Link to="tel:0521419334">0521419334</Link>
                   </p>
                   <p>
                     <Link to="mailto:info@800speedy.com">info@800speedy.com</Link>
@@ -89,7 +89,7 @@ const FooterAreaOne = () => {
                 <div className="button-wrapper-2 d-none d-md-inline-block">
       
         <a
-          href="https://api.whatsapp.com/send/?phone=0543170355"
+          href="https://api.whatsapp.com/send/?phone=0521419334"
           className="custom-btn whatsapp-btn wobble-btn"
           style={{ padding: "8px 12px" }}
         >
@@ -103,7 +103,7 @@ const FooterAreaOne = () => {
         </a>
       
         <a
-          href="tel:+0543170355"
+          href="tel:+0521419334"
           className="custom-btn call-btn wobble-btn"
           style={{ padding: "8px 12px" }}
         >
@@ -156,7 +156,7 @@ const FooterAreaOne = () => {
       <div className="button-wrapper sticky-bottom">
       
         <a
-          href="https://api.whatsapp.com/send/?phone=971564018282"
+          href="https://api.whatsapp.com/send/?phone=0543170355"
           className="custom-btn whatsapp-btn wobble-btn"
           style={{ padding: "8px 12px" }}
         >
@@ -170,7 +170,7 @@ const FooterAreaOne = () => {
         </a>
       
         <a
-          href="tel:+971564018282"
+          href="tel:0543170355"
           className="custom-btn call-btn wobble-btn"
           style={{ padding: "8px 12px" }}
         >

@@ -13,7 +13,7 @@ const HeroOne = () => {
         <div className="row flex-row-reverse hero-row">
           <div className="col-xl-6">
             <div className="hero-style1">
-              <span className="sub-title text-gold">We are 800SPEEDY</span>
+              <span className="sub-title">We are 800SPEEDY</span>
               <h1 className="hero-title text-white">
                 Fastest On-Site{" "}
                 <span>
@@ -22,7 +22,7 @@ const HeroOne = () => {
                 </span>{" "}
                 Arriving in Just 20–30 Minutes
               </h1>
-         <ul className="hero-points hero-text text-gold hero-para">
+         <ul>
   <li>
     <span className="icon">🚗</span>
     Fast spare tyre changes

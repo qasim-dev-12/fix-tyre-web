@@ -61,7 +61,7 @@ const FooterAreaThree = () => {
                 <div className="widget-contact">
                   <p>
                     <i className="fas fa-phone-alt me-2 text-theme" />
-                    <Link to="tel:0543170355">0543170355</Link>
+                    <Link to="tel:0521419334">0521419334</Link>
                   </p>
                   <p>
                     <i className="fas fa-envelope me-2 text-theme" />
