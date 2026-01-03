@@ -59,6 +59,12 @@ const FooterAreaOne = () => {
                     <li>
                       <Link to="/service/air-fill">Air Fill</Link>
                     </li>
+                     <li>
+                      <Link to="/service/spare-tyre-change">Spare Tyre Change</Link>
+                    </li>
+                    <li>
+                      <Link to="/service/fix-puncture-tyre">Fix Puncture</Link>
+                    </li>
                    
                   </ul>
                 </div>
@@ -145,7 +151,7 @@ const FooterAreaOne = () => {
             </div>
             <div className="col-auto">
               <div className="footer-links">
-                <Link to="/terms-and-conditions">Tarmssss &amp; Condition</Link>
+                <Link to="/terms-and-conditions">Terms &amp; Condition</Link>
                 <Link to="/privacy-policy">Privacy Policy</Link>
                 <Link to="/contact">Contact Us</Link>
               </div>
