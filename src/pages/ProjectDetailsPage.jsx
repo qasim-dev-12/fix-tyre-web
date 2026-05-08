@@ -14,6 +14,21 @@ const ProjectDetailsPage = () => {
       setActive(false);
     }, 2000);
   }, []);
+    useEffect(() => {
+    const script = document.createElement("script");
+    script.src =
+      "https://www.googletagmanager.com/gtag/js?id=AW-18146724868";
+    script.async = true;
+    document.head.appendChild(script);
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+
+    gtag("js", new Date());
+    gtag("config", "AW-18146724868");
+  }, []);
   return (
     <>
       {/* Preloader */}
